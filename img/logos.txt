@@ -169,5 +169,7 @@ FACTORY
 <box-icon type='solid' name='factory'></box-icon>
 <i class='bx bxs-factory'></i>
 
- 
+ MENU
+ <box-icon name='menu'></box-icon>
+ <i class='bx bx-menu'></i>
 
