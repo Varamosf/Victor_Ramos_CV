@@ -1,0 +1,173 @@
+LINKEDIN
+<box-icon type='logo' name='linkedin'></box-icon>
+<i class='bx bxl-linkedin'></i>
+
+<box-icon name='linkedin-square' type='logo' ></box-icon>
+<i class='bx bxl-linkedin-square' ></i>
+
+FACEBOOK
+<box-icon name='facebook-circle' type='logo' ></box-icon>
+<i class='bx bxl-facebook-circle' ></i>
+
+<box-icon name='facebook' type='logo' ></box-icon>
+<i class='bx bxl-facebook' ></i>
+
+<box-icon name='facebook-square' type='logo' ></box-icon>
+<i class='bx bxl-facebook-square' ></i>
+
+INSTAGRAM
+<box-icon type='logo' name='instagram-alt'></box-icon>
+<i class='bx bxl-instagram-alt'></i>
+
+<box-icon name='instagram' type='logo' ></box-icon>
+<i class='bx bxl-instagram' ></i>
+
+WHATSAPP
+<box-icon type='logo' name='whatsapp'></box-icon>
+<i class='bx bxl-whatsapp'></i>
+
+<box-icon name='whatsapp-square' type='logo' ></box-icon>
+<i class='bx bxl-whatsapp-square' ></i>
+
+TWITTER
+<box-icon name='twitter' type='logo' ></box-icon>
+<i class='bx bxl-twitter' ></i>
+
+MICROSOFT
+<box-icon type='logo' name='microsoft'></box-icon>
+<i class='bx bxl-microsoft'></i>
+
+<box-icon type='logo' name='windows'></box-icon>
+<i class='bx bxl-windows'></i>
+
+GOOGLE / GMAIL
+<box-icon type='logo' name='google'></box-icon>
+<i class='bx bxl-google'></i>
+
+FLUTTER
+<box-icon type='logo' name='flutter'></box-icon>
+<i class='bx bxl-flutter'></i>
+
+UNITY
+<box-icon type='logo' name='unity'></box-icon>
+<i class='bx bxl-unity'></i>
+
+DISCORD
+<box-icon type='logo' name='discord-alt'></box-icon>
+<i class='bx bxl-discord-alt'></i>
+
+<box-icon type='logo' name='discord'></box-icon>
+<i class='bx bxl-discord'></i>
+
+TWITCH
+<box-icon type='logo' name='twitch'></box-icon>
+<i class='bx bxl-twitch'></i>
+
+VISUAL STUDIO
+<box-icon type='logo' name='visual-studio'></box-icon>
+<i class='bx bxl-visual-studio'></i>
+
+ANGULAR
+<box-icon type='logo' name='angular'></box-icon>
+<i class='bx bxl-angular'></i>
+
+HTML5
+<box-icon type='logo' name='html5'></box-icon>
+<i class='bx bxl-html5'></i>
+
+JAVASCRIPT
+<box-icon type='logo' name='javascript'></box-icon>
+<i class='bx bxl-javascript'></i>
+
+NODEJS
+<box-icon type='logo' name='nodejs'></box-icon>
+<i class='bx bxl-nodejs'></i>
+
+REACT
+<box-icon type='logo' name='react'></box-icon>
+<i class='bx bxl-react'></i>
+
+REDUX
+<box-icon type='logo' name='redux'></box-icon>
+<i class='bx bxl-redux'></i>
+
+CSS3
+<box-icon type='logo' name='css3'></box-icon>
+<i class='bx bxl-css3'></i>
+
+PYTHON
+<box-icon type='logo' name='python'></box-icon>
+<i class='bx bxl-python'></i>
+
+CELLPHONE / MOBILE
+<box-icon name='mobile-alt'></box-icon>
+<i class='bx bx-mobile-alt'></i>
+
+VIDEOGAME CONTROLLER
+<box-icon name='joystick'></box-icon>
+<i class='bx bx-joystick'></i>
+
+<box-icon name='joystick-alt'></box-icon>
+<i class='bx bx-joystick-alt'></i>
+
+<box-icon type='solid' name='joystick-alt'></box-icon>
+<i class='bx bxs-joystick-alt'></i>
+
+<box-icon name='joystick' type='solid' ></box-icon>
+<i class='bx bxs-joystick' ></i>
+
+PIANO / KEYBOARD
+<box-icon type='solid' name='piano'></box-icon>
+<i class='bx bxs-piano'></i>
+
+SPEAKERS
+<box-icon type='solid' name='speaker'></box-icon>
+<i class='bx bxs-speaker'></i>
+
+<box-icon name='speaker'></box-icon>
+<i class='bx bx-speaker'></i>
+
+SOUNDCLOUD
+<box-icon type='logo' name='soundcloud'></box-icon>
+<i class='bx bxl-soundcloud'></i>
+
+SPOTIFY
+<box-icon type='logo' name='spotify'></box-icon>
+<i class='bx bxl-spotify'></i>
+
+GUITAR AMP
+<box-icon type='solid' name='guitar-amp'></box-icon>
+<i class='bx bxs-guitar-amp'></i>
+
+HEADPHONES
+<box-icon name='headphone'></box-icon>
+<i class='bx bx-headphone'></i>
+
+ZOOM
+<box-icon type='logo' name='zoom'></box-icon>
+<i class='bx bxl-zoom'></i>
+
+YOUTUBE
+<box-icon type='logo' name='youtube'></box-icon>
+<i class='bx bxl-youtube'></i>
+
+LOCATION
+<box-icon name='map'></box-icon>
+<i class='bx bx-map'></i>
+
+<box-icon type='solid' name='map'></box-icon>
+<i class='bx bxs-map'></i>
+
+SCHOOL
+<box-icon type='solid' name='school'></box-icon>
+<i class='bx bxs-school'></i>
+
+<box-icon type='solid' name='institution'></box-icon>
+<i class='bx bxs-institution'></i>
+
+FACTORY
+<box-icon type='solid' name='factory'></box-icon>
+<i class='bx bxs-factory'></i>
+
+ 
+

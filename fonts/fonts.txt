@@ -1,0 +1,13 @@
+HTML
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;500&family=Cabin:wght@400;500&family=Gloria+Hallelujah&family=Indie+Flower&family=Noto+Sans+KR:wght@400;500&family=Patrick+Hand&display=swap" rel="stylesheet">
+
+CSS
+font-family: 'Arimo', sans-serif;
+font-family: 'Cabin', sans-serif;
+font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Noto Sans KR', sans-serif;
+font-family: 'Patrick Hand', cursive;
