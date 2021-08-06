@@ -1,18 +1,18 @@
 body{
-font-family: 'Arimo', sans-serif;
+/*font-family: 'Arimo', sans-serif;
 font-family: 'Cabin', sans-serif;
 font-family: 'Gloria Hallelujah', cursive;
 font-family: 'Indie Flower', cursive;
 font-family: 'Noto Sans KR', sans-serif;
 font-family: 'Patrick Hand', cursive;
-background-color: gray;
+background-color: gray;*/
 }
 
 .PERSONAL_INFORMATION
 {
     background-color: gray;
-    width: 2000 px;
-    height:2000 px;
-    padding: 25 px;
-    border: 20 px black dashed;
+    width: 200px;
+    height:2000px;
+    padding: 25px;
+    border: 20px black dashed;
 }
