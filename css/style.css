@@ -4,6 +4,7 @@ body{
     border: 1px solid blue;
     padding: 10px;
     font-family: 'Cabin', sans-serif;
+    text-decoration-color: #222831;
     margin: 0;
 }
 
@@ -23,8 +24,9 @@ body{
 }
 
 .WORK_EXPERIENCE_BOX{
-    border-radius: 10px solid  #819985;
+    background-color: #F3F2C9;
+    border: 5px solid  #055052;
+    border-radius: 5px;
     overflow: hidden;
     padding: 5px;
 }
-
