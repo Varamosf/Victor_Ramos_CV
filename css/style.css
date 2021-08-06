@@ -1,5 +1,9 @@
 html,
-.PERSONAL_INFORMATION
+body{
+    font-family: 'Cabin', sans-serif;
+    margin: 0;
+}
+.PERSONAL_INFORMATION_CONTENEDOR
 {
     background-color: gray;
     width: 200px;
