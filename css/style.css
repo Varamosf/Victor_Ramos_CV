@@ -1,12 +1,25 @@
 html,
+
 body{
+    border: 1px solid blue;
     font-family: 'Cabin', sans-serif;
     margin: 0;
 }
+
+.HEADER{
+    border: 1px solid red;
+}
+
+.HOME_MENU{
+    border: 1px solid purple;
+}
+
+.HEADER_BOX{
+    border: 1px solid green;
+}
+
 .WORK_EXPERIENCE_BOX
 {
-    background-color: gray;
-    width: 200px;
-    padding: 25px;
-    border: 20px black dashed;
+    border: 1px solid pink;
 }
+
