@@ -3,11 +3,10 @@ body{
     font-family: 'Cabin', sans-serif;
     margin: 0;
 }
-.PERSONAL_INFORMATION_CONTENEDOR
+.HEADER_BOX
 {
     background-color: gray;
     width: 200px;
-    height:2000px;
     padding: 25px;
     border: 20px black dashed;
 }
