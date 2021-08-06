@@ -23,7 +23,8 @@ body{
 }
 
 .WORK_EXPERIENCE_BOX{
-    border: 1px solid pink;
+    border-radius: 10px solid  #819985;
+    overflow: hidden;
     padding: 5px;
 }
 
