@@ -9,7 +9,7 @@ html,
 body{
     font-family: 'Open sans';
     margin: 5px 0;
-    border: 3px solid blue;
+    border: 1px solid blue;
 }
 
 h2{
@@ -18,223 +18,205 @@ h2{
 
 header{
     margin: 5px 0;
-    border: 3px solid red;
+    border: 1px solid red;
 }
 
 main{
     margin: 5px 0;
-    border: 3px solid green;
+    border: 1px solid green;
 }
 
 section{
     margin: 5px 0;
-    border: 3px solid purple;
+    border: 1px solid purple;
 }
 
 div{
     margin: 5px 0;
-    border: 3px solid orange;
+    border: 1px solid orange;
 }
 
 .HOME_MENU{
     margin: 5px 0;
-    border: 3px dashed black;
+    border: 1px dashed black;
     background-color: lightgray;
+    align-items: center;
+    text-align: center;
 }
 
 .INTRODUCTION_SECTION{
-    margin: 5px;
     border: 3px dashed white;
     background-color: #1D2D43;
 }
 
 .INTRODUCTION_TITLE{
     margin: 5px;
-    border: 3px dashed royalblue;
     text-align: center;
     align-items: center;
 }
 
 .INTRODUCTION_BOX{
     padding: 60px 0;
-    border: 3px dashed indianred;
+    border: 1px dashed indianred;
 }
 
 .PERSONAL_INFORMATION_SECTION{
-    margin: 5px;
-    border: 3px dashed black;
+    border: 1px dashed black;
     background-color: lightgray;
 }
 
 .PERSONAL_INFORMATION_TITLE{
     margin: 5px;
-    border: 3px dashed royalblue;
     text-align: center;
     align-items: center;
 }
 
 .PERSONAL_INFORMATION_BOX{
     padding: 60px 0;
-    border: 3px dashed indianred;
+    border: 1px dashed indianred;
     text-align: center;
     align-items: center;
 }
 
 .RESUME_SECTION{
-    margin: 5px;
-    border: 3px dashed white;
+    border: 1px dashed white;
     background-color: #1D2D43;
 }
 .RESUME_TITLE{
     margin: 5px;
-    border: 3px dashed royalblue;
     text-align: center;
     align-items: center;
 }
 
 .RESUME_BOX{
     padding: 60px 0;
-    border: 3px dashed indianred;
+    border: 1px dashed indianred;
     text-align: center;
     align-items: center;   
 }
 
 .WORK_EXPERIENCE_SECTION{
-    margin: 5px;
-    border: 3px dashed black;
+    border: 1px dashed black;
     background-color: lightgray;
 }
 .WORK_EXPERIENCE_TITLE{
     margin: 5px;
-    border: 3px dashed royalblue;
     text-align: center;
     align-items: center;
 }
 
 .WORK_EXPERIENCE_BOX{
     padding: 60px 0;
-    border: 3px dashed indianred;
+    border: 1px dashed indianred;
     text-align: center;
     align-items: center;   
 }
 
 .EDUCATION_SECTION{
-    margin: 5px;
-    border: 3px dashed white;
+    border: 1px dashed white;
     background-color: #1D2D43;
 }
 .EDUCATION_TITLE{
     margin: 5px;
-    border: 3px dashed royalblue;
     text-align: center;
     align-items: center;
 }
 
 .EDUCATION_BOX{
     padding: 60px 0;
-    border: 3px dashed indianred;
+    border: 1px dashed indianred;
     text-align: center;
     align-items: center;   
 }
 
 .LANGUAGES_SECTION{
-    margin: 5px;
-    border: 3px dashed black;
+    border: 1px dashed black;
     background-color: lightgray;
 }
 .LANGUAGES_TITLE{
     margin: 5px;
-    border: 3px dashed royalblue;
     text-align: center;
     align-items: center;
 }
 
 .LANGUAGES_BOX{
     padding: 60px 0;
-    border: 3px dashed indianred;
+    border: 1px dashed indianred;
     text-align: center;
     align-items: center;   
 }
 
 .LANGUAGES_TABLE{
     margin: 5px;
-    border: 3px dashed indianred;
+    border: 1px dashed indianred;
     text-align: center;
     align-items: center;
 }
 
 .SOFTWARE_SECTION{
-    margin: 5px;
-    border: 3px dashed white;
+    border: 1px dashed white;
     background-color: #1D2D43;
 }
 .SOFTWARE_TITLE{
     margin: 5px;
-    border: 3px dashed royalblue;
     text-align: center;
     align-items: center;
 }
 
 .SOFTWARE_BOX{
     padding: 60px 0;
-    border: 3px dashed indianred;
+    border: 1px dashed indianred;
     text-align: center;
     align-items: center;   
 }
 
 .SKILLS_SECTION{
-    margin: 5px;
-    border: 3px dashed black;
+    border: 1px dashed black;
     background-color: lightgray;
 }
 .SKILLS_TITLE{
     margin: 5px;
-    border: 3px dashed royalblue;
     text-align: center;
     align-items: center;
 }
 
 .SKILLS_BOX{
     padding: 60px 0;
-    border: 3px dashed indianred;
+    border: 1px dashed indianred;
     text-align: center;
     align-items: center;   
 }
 
 .HOBBIES_INTERESTS_SECTION{
-    margin: 5px;
-    border: 3px dashed white;
+    border: 1px dashed white;
     background-color: #1D2D43;
 }
 .HOBBIES_INTERESTS_TITLE{
     margin: 5px;
-    border: 3px dashed royalblue;
     text-align: center;
     align-items: center;
 }
 
 .HOBBIES_INTERESTS_BOX{
     padding: 60px 0;
-    border: 3px dashed indianred;
+    border: 1px dashed indianred;
     text-align: center;
     align-items: center;   
 }
 
 .SOCIAL_MEDIA_SECTION{
-    margin: 5px;
-    border: 3px dashed black;
+    border: 1px dashed black;
     background-color: lightgray;
 }
 .SOCIAL_MEDIA_TITLE{
     margin: 5px;
-    border: 3px dashed royalblue;
     text-align: center;
     align-items: center;
 }
 
 .SOCIAL_MEDIA_BOX{
     padding: 60px 0;
-    border: 3px dashed indianred;
+    border: 1px dashed indianred;
     text-align: center;
     align-items: stretch;
 }
