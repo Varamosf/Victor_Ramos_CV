@@ -19,9 +19,6 @@ body{
 }
 
 .WORK_EXPERIENCE_BOX{
-    background-color: #F3F2C9;
     border: 5px solid  #055052;
-    border-radius: 5px;
-    overflow: hidden;
     padding: 5px;
 }
