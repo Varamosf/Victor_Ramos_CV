@@ -1,0 +1,230 @@
+html,
+
+body{
+    margin: 5px;
+    border: 3px solid blue;
+}
+
+header{
+    margin: 5px;
+    border: 3px solid red;
+}
+
+main{
+    margin: 5px;
+    border: 3px solid green;
+}
+
+section{
+    margin: 5px;
+    border: 3px solid purple;
+}
+
+div{
+    margin: 5px;
+    border: 3px solid orange;
+}
+
+.HOME_MENU{
+    margin: 5px;
+    border: 3px dashed black;
+    background-color: lightgray;
+}
+
+.INTRODUCTION_SECTION{
+    margin: 5px;
+    border: 3px dashed black;
+    background-color: lightgray;
+}
+
+.INTRODUCTION_TITLE{
+    margin: 5px;
+    border: 3px dashed royalblue;
+    text-align: center;
+    align-items: center;
+}
+
+.INTRODUCTION_BOX{
+    margin: 5px;
+    border: 3px dashed indianred;
+}
+
+.PERSONAL_INFORMATION_SECTION{
+    margin: 5px;
+    border: 3px dashed black;
+    background-color: lightgray;
+}
+
+.PERSONAL_INFORMATION_TITLE{
+    margin: 5px;
+    border: 3px dashed royalblue;
+    text-align: center;
+    align-items: center;
+}
+
+.PERSONAL_INFORMATION_BOX{
+    margin: 5px;
+    border: 3px dashed indianred;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.RESUME_SECTION{
+    margin: 5px;
+    border: 3px dashed black;
+    background-color: lightgray;
+}
+.RESUME_TITLE{
+    margin: 5px;
+    border: 3px dashed royalblue;
+    text-align: center;
+    align-items: center;
+}
+
+.RESUME_BOX{
+    margin: 5px;
+    border: 3px dashed indianred;
+    text-align: center;
+    align-items: center;   
+}
+
+.WORK_EXPERIENCE_SECTION{
+    margin: 5px;
+    border: 3px dashed black;
+    background-color: lightgray;
+}
+.WORK_EXPERIENCE_TITLE{
+    margin: 5px;
+    border: 3px dashed royalblue;
+    text-align: center;
+    align-items: center;
+}
+
+.WORK_EXPERIENCE_BOX{
+    margin: 5px;
+    border: 3px dashed indianred;
+    text-align: center;
+    align-items: center;   
+}
+
+.EDUCATION_SECTION{
+    margin: 5px;
+    border: 3px dashed black;
+    background-color: lightgray;
+}
+.EDUCATION_TITLE{
+    margin: 5px;
+    border: 3px dashed royalblue;
+    text-align: center;
+    align-items: center;
+}
+
+.EDUCATION_BOX{
+    margin: 5px;
+    border: 3px dashed indianred;
+    text-align: center;
+    align-items: center;   
+}
+
+.LANGUAGES_SECTION{
+    margin: 5px;
+    border: 3px dashed black;
+    background-color: lightgray;
+}
+.LANGUAGES_TITLE{
+    margin: 5px;
+    border: 3px dashed royalblue;
+    text-align: center;
+    align-items: center;
+}
+
+.LANGUAGES_BOX{
+    margin: 5px;
+    border: 3px dashed indianred;
+    text-align: center;
+    align-items: center;   
+}
+
+.LANGUAGES_TABLE{
+    margin: 5px;
+    border: 3px dashed indianred;
+    text-align: center;
+    align-items: center;
+}
+
+.SOFTWARE_SECTION{
+    margin: 5px;
+    border: 3px dashed black;
+    background-color: lightgray;
+}
+.SOFTWARE_TITLE{
+    margin: 5px;
+    border: 3px dashed royalblue;
+    text-align: center;
+    align-items: center;
+}
+
+.SOFTWARE_BOX{
+    margin: 5px;
+    border: 3px dashed indianred;
+    text-align: center;
+    align-items: center;   
+}
+
+.SKILLS_SECTION{
+    margin: 5px;
+    border: 3px dashed black;
+    background-color: lightgray;
+}
+.SKILLS_TITLE{
+    margin: 5px;
+    border: 3px dashed royalblue;
+    text-align: center;
+    align-items: center;
+}
+
+.SKILLS_BOX{
+    margin: 5px;
+    border: 3px dashed indianred;
+    text-align: center;
+    align-items: center;   
+}
+
+.HOBBIES_INTERESTS_SECTION{
+    margin: 5px;
+    border: 3px dashed black;
+    background-color: lightgray;
+}
+.HOBBIES_INTERESTS_TITLE{
+    margin: 5px;
+    border: 3px dashed royalblue;
+    text-align: center;
+    align-items: center;
+}
+
+.HOBBIES_INTERESTS_BOX{
+    margin: 5px;
+    border: 3px dashed indianred;
+    text-align: center;
+    align-items: center;   
+}
+
+.SOCIAL_MEDIA_SECTION{
+    margin: 5px;
+    border: 3px dashed black;
+    background-color: lightgray;
+}
+.SOCIAL_MEDIA_TITLE{
+    margin: 5px;
+    border: 3px dashed royalblue;
+    text-align: center;
+    align-items: center;
+}
+
+.SOCIAL_MEDIA_BOX{
+    margin: 5px;
+    border: 3px dashed indianred;
+    text-align: center;
+    align-items: stretch;
+}
