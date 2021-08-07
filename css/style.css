@@ -3,38 +3,28 @@ html,
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-body {
-  font-family: "Open sans";
+  font-family: inherit;
 }
 
 h2 {
-  font-size: 35px;
+  font-size: 45px;
 }
 
-header {
-  margin: 5px 0;
-}
-
-main {
-  margin: 5px 0;
-}
-
-section {
-  margin: 5px 0;
-}
-
-div {
-  margin: 5px 0;
-  border: 1px solid orange;
+.UPPER_BAR_BOX {
+  background-color: #f7ba3e;
+  color: #182025;
 }
 
 .HOME_MENU {
-  margin: 5px 0;
-  background-color: lightgray;
+  background-color: #f7ba3e;
   align-items: center;
   text-align: center;
+}
+
+.HOME_MENU_TITLE {
+  color: #182025;
+  font-style: inherit;
+  font-weight: bold;
 }
 
 .INTRODUCTION_SECTION {
@@ -42,7 +32,6 @@ div {
 }
 
 .INTRODUCTION_TITLE {
-  margin: 5px;
   color: #f7ba3e;
   text-align: center;
   align-items: center;
@@ -51,6 +40,8 @@ div {
 .INTRODUCTION_BOX {
   padding: 60px 0;
   color: #f7ba3e;
+  font-family: inherit;
+  font-weight: bold;
 }
 
 .PERSONAL_INFORMATION_SECTION {
@@ -59,6 +50,7 @@ div {
 
 .PERSONAL_INFORMATION_TITLE {
   margin: 5px;
+  color: #1a2b34;
   text-align: center;
   align-items: center;
 }
@@ -91,7 +83,7 @@ div {
 }
 .WORK_EXPERIENCE_TITLE {
   margin: 5px;
-  color: #182025;
+  color: #1a2b34;
   text-align: center;
   align-items: center;
 }
@@ -103,18 +95,18 @@ div {
 }
 
 .EDUCATION_SECTION {
-  border: 1px dashed white;
   background-color: #182025;
 }
 .EDUCATION_TITLE {
   margin: 5px;
+  color: #53b6b4;
   text-align: center;
   align-items: center;
 }
 
 .EDUCATION_BOX {
   padding: 60px 0;
-  border: 1px dashed indianred;
+  color: #53b6b4;
   text-align: center;
   align-items: center;
 }
@@ -197,5 +189,9 @@ div {
 .SOCIAL_MEDIA_BOX {
   padding: 60px 0;
   text-align: center;
-  align-items: stretch;
+  align-items: center;
+}
+
+.SOCIAL_MEDIA_LOGO {
+  color: #334651;
 }
