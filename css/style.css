@@ -7,6 +7,7 @@ html,
 }
 
 h2 {
+  font-family: inherit;
   font-size: 45px;
 }
 
@@ -23,175 +24,211 @@ h2 {
 
 .HOME_MENU_TITLE {
   color: #182025;
-  font-style: inherit;
+  font-family: inherit;
   font-weight: bold;
 }
 
 .INTRODUCTION_SECTION {
+  padding: 25px;
   background-color: #182025;
 }
 
 .INTRODUCTION_TITLE {
   color: #f7ba3e;
+  font-family: inherit;
+  font-weight: bold;
   text-align: center;
   align-items: center;
 }
 
 .INTRODUCTION_BOX {
-  padding: 60px 0;
   color: #f7ba3e;
   font-family: inherit;
   font-weight: bold;
 }
 
 .PERSONAL_INFORMATION_SECTION {
+  padding: 25px;
   background-color: white;
 }
 
 .PERSONAL_INFORMATION_TITLE {
-  margin: 5px;
   color: #1a2b34;
+  font-family: inherit;
+  font-weight: bold;
   text-align: center;
   align-items: center;
 }
 
 .PERSONAL_INFORMATION_BOX {
-  padding: 60px 0;
+  font-family: inherit;
+  font-weight: bold;
   text-align: center;
   align-items: center;
 }
 
 .RESUME_SECTION {
+  padding: 25px;
   background-color: #182025;
 }
 .RESUME_TITLE {
-  margin: 5px;
   color: #bf85bf;
+  font-family: inherit;
+  font-weight: bold;
   text-align: center;
   align-items: center;
 }
 
 .RESUME_BOX {
-  padding: 60px 0;
   color: #bf85bf;
   text-align: center;
   align-items: center;
 }
 
 .WORK_EXPERIENCE_SECTION {
+  padding: 25px;
   background-color: white;
 }
 .WORK_EXPERIENCE_TITLE {
-  margin: 5px;
   color: #1a2b34;
+  font-family: inherit;
+  font-weight: bold;
   text-align: center;
   align-items: center;
 }
 
 .WORK_EXPERIENCE_BOX {
-  padding: 60px 0;
+  color: #1a2b34;
+  font-family: inherit;
+  font-weight: bold;
   text-align: center;
   align-items: center;
 }
 
 .EDUCATION_SECTION {
+  padding: 25px;
   background-color: #182025;
 }
 .EDUCATION_TITLE {
-  margin: 5px;
   color: #53b6b4;
+  font-family: inherit;
+  font-weight: bold;
   text-align: center;
   align-items: center;
 }
 
 .EDUCATION_BOX {
-  padding: 60px 0;
   color: #53b6b4;
+  font-family: inherit;
+  font-weight: bold;
   text-align: center;
   align-items: center;
 }
 
 .LANGUAGES_SECTION {
+  padding: 25px;
   background-color: white;
 }
 .LANGUAGES_TITLE {
-  margin: 5px;
+  color: #1a2b34;
+  font-family: inherit;
+  font-weight: bold;
   text-align: center;
   align-items: center;
 }
 
 .LANGUAGES_BOX {
-  padding: 60px 0;
+  color: #1a2b34;
+  font-family: inherit;
+  font-weight: bold;
   text-align: center;
   align-items: center;
 }
 
 .LANGUAGES_TABLE {
-  margin: 5px;
+  color: #1a2b34;
+  font-family: inherit;
+  font-weight: bold;
   text-align: center;
   align-items: center;
 }
 
 .SOFTWARE_SECTION {
+  padding: 25px;
   background-color: #182025;
 }
 .SOFTWARE_TITLE {
-  margin: 5px;
+  color: #ea5e5e;
+  font-family: inherit;
+  font-weight: bold;
   text-align: center;
   align-items: center;
 }
 
 .SOFTWARE_BOX {
-  padding: 60px 0;
+  color: #ea5e5e;
+  font-family: inherit;
+  font-weight: bold;
   text-align: center;
   align-items: center;
 }
 
 .SKILLS_SECTION {
+  padding: 25px;
   background-color: white;
 }
 .SKILLS_TITLE {
-  margin: 5px;
+  color: #1a2b34;
+  font-family: inherit;
+  font-weight: bold;
   text-align: center;
   align-items: center;
 }
 
 .SKILLS_BOX {
-  padding: 60px 0;
+  color: #1a2b34;
+  font-family: inherit;
+  font-weight: bold;
   text-align: center;
   align-items: center;
 }
 
 .HOBBIES_INTERESTS_SECTION {
+  padding: 25px;
   background-color: #182025;
 }
 .HOBBIES_INTERESTS_TITLE {
-  margin: 5px;
+  color: #f6914d;
+  font-family: inherit;
+  font-weight: bold;
   text-align: center;
   align-items: center;
 }
 
 .HOBBIES_INTERESTS_BOX {
-  padding: 60px 0;
+  color: #f6914d;
+  font-family: inherit;
+  font-weight: bold;
   text-align: center;
   align-items: center;
 }
 
 .SOCIAL_MEDIA_SECTION {
+  padding: 25px;
   background-color: white;
 }
 .SOCIAL_MEDIA_TITLE {
-  margin: 5px;
+  color: #6f7b81;
+  font-family: inherit;
+  font-weight: bold;
   text-align: center;
   align-items: center;
 }
 
 .SOCIAL_MEDIA_BOX {
-  padding: 60px 0;
+  color: #6f7b81;
+  font-family: inherit;
+  font-weight: bold;
   text-align: center;
   align-items: center;
-}
-
-.SOCIAL_MEDIA_LOGO {
-  color: #334651;
 }
