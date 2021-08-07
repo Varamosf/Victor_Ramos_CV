@@ -1,222 +1,221 @@
 html,
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    font-family: 'Open sans';
-    margin: 5px 0;
-    border: 1px solid blue;
+body {
+  font-family: "Open sans";
+  margin: 5px 0;
+  border: 1px solid blue;
 }
 
-h2{
-    font-size: 35px;
+h2 {
+  font-size: 35px;
 }
 
-header{
-    margin: 5px 0;
-    border: 1px solid red;
+header {
+  margin: 5px 0;
+  border: 1px solid red;
 }
 
-main{
-    margin: 5px 0;
-    border: 1px solid green;
+main {
+  margin: 5px 0;
+  border: 1px solid green;
 }
 
-section{
-    margin: 5px 0;
-    border: 1px solid purple;
+section {
+  margin: 5px 0;
+  border: 1px solid purple;
 }
 
-div{
-    margin: 5px 0;
-    border: 1px solid orange;
+div {
+  margin: 5px 0;
+  border: 1px solid orange;
 }
 
-.HOME_MENU{
-    margin: 5px 0;
-    border: 1px dashed black;
-    background-color: lightgray;
-    align-items: center;
-    text-align: center;
+.HOME_MENU {
+  margin: 5px 0;
+  border: 1px dashed black;
+  background-color: lightgray;
+  align-items: center;
+  text-align: center;
 }
 
-.INTRODUCTION_SECTION{
-    border: 3px dashed white;
-    background-color: #1D2D43;
+.INTRODUCTION_SECTION {
+  border: 3px dashed white;
+  background-color: #1d2d43;
 }
 
-.INTRODUCTION_TITLE{
-    margin: 5px;
-    text-align: center;
-    align-items: center;
+.INTRODUCTION_TITLE {
+  margin: 5px;
+  text-align: center;
+  align-items: center;
 }
 
-.INTRODUCTION_BOX{
-    padding: 60px 0;
-    border: 1px dashed indianred;
+.INTRODUCTION_BOX {
+  padding: 60px 0;
+  border: 1px dashed indianred;
 }
 
-.PERSONAL_INFORMATION_SECTION{
-    border: 1px dashed black;
-    background-color: lightgray;
+.PERSONAL_INFORMATION_SECTION {
+  border: 1px dashed black;
+  background-color: lightgray;
 }
 
-.PERSONAL_INFORMATION_TITLE{
-    margin: 5px;
-    text-align: center;
-    align-items: center;
+.PERSONAL_INFORMATION_TITLE {
+  margin: 5px;
+  text-align: center;
+  align-items: center;
 }
 
-.PERSONAL_INFORMATION_BOX{
-    padding: 60px 0;
-    border: 1px dashed indianred;
-    text-align: center;
-    align-items: center;
+.PERSONAL_INFORMATION_BOX {
+  padding: 60px 0;
+  border: 1px dashed indianred;
+  text-align: center;
+  align-items: center;
 }
 
-.RESUME_SECTION{
-    border: 1px dashed white;
-    background-color: #1D2D43;
+.RESUME_SECTION {
+  border: 1px dashed white;
+  background-color: #1d2d43;
 }
-.RESUME_TITLE{
-    margin: 5px;
-    text-align: center;
-    align-items: center;
-}
-
-.RESUME_BOX{
-    padding: 60px 0;
-    border: 1px dashed indianred;
-    text-align: center;
-    align-items: center;   
+.RESUME_TITLE {
+  margin: 5px;
+  text-align: center;
+  align-items: center;
 }
 
-.WORK_EXPERIENCE_SECTION{
-    border: 1px dashed black;
-    background-color: lightgray;
-}
-.WORK_EXPERIENCE_TITLE{
-    margin: 5px;
-    text-align: center;
-    align-items: center;
+.RESUME_BOX {
+  padding: 60px 0;
+  border: 1px dashed indianred;
+  text-align: center;
+  align-items: center;
 }
 
-.WORK_EXPERIENCE_BOX{
-    padding: 60px 0;
-    border: 1px dashed indianred;
-    text-align: center;
-    align-items: center;   
+.WORK_EXPERIENCE_SECTION {
+  border: 1px dashed black;
+  background-color: lightgray;
+}
+.WORK_EXPERIENCE_TITLE {
+  margin: 5px;
+  text-align: center;
+  align-items: center;
 }
 
-.EDUCATION_SECTION{
-    border: 1px dashed white;
-    background-color: #1D2D43;
-}
-.EDUCATION_TITLE{
-    margin: 5px;
-    text-align: center;
-    align-items: center;
+.WORK_EXPERIENCE_BOX {
+  padding: 60px 0;
+  border: 1px dashed indianred;
+  text-align: center;
+  align-items: center;
 }
 
-.EDUCATION_BOX{
-    padding: 60px 0;
-    border: 1px dashed indianred;
-    text-align: center;
-    align-items: center;   
+.EDUCATION_SECTION {
+  border: 1px dashed white;
+  background-color: #1d2d43;
+}
+.EDUCATION_TITLE {
+  margin: 5px;
+  text-align: center;
+  align-items: center;
 }
 
-.LANGUAGES_SECTION{
-    border: 1px dashed black;
-    background-color: lightgray;
-}
-.LANGUAGES_TITLE{
-    margin: 5px;
-    text-align: center;
-    align-items: center;
+.EDUCATION_BOX {
+  padding: 60px 0;
+  border: 1px dashed indianred;
+  text-align: center;
+  align-items: center;
 }
 
-.LANGUAGES_BOX{
-    padding: 60px 0;
-    border: 1px dashed indianred;
-    text-align: center;
-    align-items: center;   
+.LANGUAGES_SECTION {
+  border: 1px dashed black;
+  background-color: lightgray;
+}
+.LANGUAGES_TITLE {
+  margin: 5px;
+  text-align: center;
+  align-items: center;
 }
 
-.LANGUAGES_TABLE{
-    margin: 5px;
-    border: 1px dashed indianred;
-    text-align: center;
-    align-items: center;
+.LANGUAGES_BOX {
+  padding: 60px 0;
+  border: 1px dashed indianred;
+  text-align: center;
+  align-items: center;
 }
 
-.SOFTWARE_SECTION{
-    border: 1px dashed white;
-    background-color: #1D2D43;
-}
-.SOFTWARE_TITLE{
-    margin: 5px;
-    text-align: center;
-    align-items: center;
+.LANGUAGES_TABLE {
+  margin: 5px;
+  border: 1px dashed indianred;
+  text-align: center;
+  align-items: center;
 }
 
-.SOFTWARE_BOX{
-    padding: 60px 0;
-    border: 1px dashed indianred;
-    text-align: center;
-    align-items: center;   
+.SOFTWARE_SECTION {
+  border: 1px dashed white;
+  background-color: #1d2d43;
+}
+.SOFTWARE_TITLE {
+  margin: 5px;
+  text-align: center;
+  align-items: center;
 }
 
-.SKILLS_SECTION{
-    border: 1px dashed black;
-    background-color: lightgray;
-}
-.SKILLS_TITLE{
-    margin: 5px;
-    text-align: center;
-    align-items: center;
+.SOFTWARE_BOX {
+  padding: 60px 0;
+  border: 1px dashed indianred;
+  text-align: center;
+  align-items: center;
 }
 
-.SKILLS_BOX{
-    padding: 60px 0;
-    border: 1px dashed indianred;
-    text-align: center;
-    align-items: center;   
+.SKILLS_SECTION {
+  border: 1px dashed black;
+  background-color: lightgray;
+}
+.SKILLS_TITLE {
+  margin: 5px;
+  text-align: center;
+  align-items: center;
 }
 
-.HOBBIES_INTERESTS_SECTION{
-    border: 1px dashed white;
-    background-color: #1D2D43;
-}
-.HOBBIES_INTERESTS_TITLE{
-    margin: 5px;
-    text-align: center;
-    align-items: center;
+.SKILLS_BOX {
+  padding: 60px 0;
+  border: 1px dashed indianred;
+  text-align: center;
+  align-items: center;
 }
 
-.HOBBIES_INTERESTS_BOX{
-    padding: 60px 0;
-    border: 1px dashed indianred;
-    text-align: center;
-    align-items: center;   
+.HOBBIES_INTERESTS_SECTION {
+  border: 1px dashed white;
+  background-color: #1d2d43;
+}
+.HOBBIES_INTERESTS_TITLE {
+  margin: 5px;
+  text-align: center;
+  align-items: center;
 }
 
-.SOCIAL_MEDIA_SECTION{
-    border: 1px dashed black;
-    background-color: lightgray;
-}
-.SOCIAL_MEDIA_TITLE{
-    margin: 5px;
-    text-align: center;
-    align-items: center;
+.HOBBIES_INTERESTS_BOX {
+  padding: 60px 0;
+  border: 1px dashed indianred;
+  text-align: center;
+  align-items: center;
 }
 
-.SOCIAL_MEDIA_BOX{
-    padding: 60px 0;
-    border: 1px dashed indianred;
-    text-align: center;
-    align-items: stretch;
+.SOCIAL_MEDIA_SECTION {
+  border: 1px dashed black;
+  background-color: lightgray;
+}
+.SOCIAL_MEDIA_TITLE {
+  margin: 5px;
+  text-align: center;
+  align-items: center;
+}
+
+.SOCIAL_MEDIA_BOX {
+  padding: 60px 0;
+  border: 1px dashed indianred;
+  text-align: center;
+  align-items: stretch;
 }
