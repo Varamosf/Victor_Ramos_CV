@@ -7,8 +7,6 @@ html,
 
 body {
   font-family: "Open sans";
-  margin: 5px 0;
-  border: 1px solid blue;
 }
 
 h2 {
@@ -17,17 +15,14 @@ h2 {
 
 header {
   margin: 5px 0;
-  border: 1px solid red;
 }
 
 main {
   margin: 5px 0;
-  border: 1px solid green;
 }
 
 section {
   margin: 5px 0;
-  border: 1px solid purple;
 }
 
 div {
@@ -37,31 +32,29 @@ div {
 
 .HOME_MENU {
   margin: 5px 0;
-  border: 1px dashed black;
   background-color: lightgray;
   align-items: center;
   text-align: center;
 }
 
 .INTRODUCTION_SECTION {
-  border: 3px dashed white;
-  background-color: #1d2d43;
+  background-color: #182025;
 }
 
 .INTRODUCTION_TITLE {
   margin: 5px;
+  color: #f7ba3e;
   text-align: center;
   align-items: center;
 }
 
 .INTRODUCTION_BOX {
   padding: 60px 0;
-  border: 1px dashed indianred;
+  color: #f7ba3e;
 }
 
 .PERSONAL_INFORMATION_SECTION {
-  border: 1px dashed black;
-  background-color: lightgray;
+  background-color: white;
 }
 
 .PERSONAL_INFORMATION_TITLE {
@@ -72,48 +65,46 @@ div {
 
 .PERSONAL_INFORMATION_BOX {
   padding: 60px 0;
-  border: 1px dashed indianred;
   text-align: center;
   align-items: center;
 }
 
 .RESUME_SECTION {
-  border: 1px dashed white;
-  background-color: #1d2d43;
+  background-color: #182025;
 }
 .RESUME_TITLE {
   margin: 5px;
+  color: #bf85bf;
   text-align: center;
   align-items: center;
 }
 
 .RESUME_BOX {
   padding: 60px 0;
-  border: 1px dashed indianred;
+  color: #bf85bf;
   text-align: center;
   align-items: center;
 }
 
 .WORK_EXPERIENCE_SECTION {
-  border: 1px dashed black;
-  background-color: lightgray;
+  background-color: white;
 }
 .WORK_EXPERIENCE_TITLE {
   margin: 5px;
+  color: #182025;
   text-align: center;
   align-items: center;
 }
 
 .WORK_EXPERIENCE_BOX {
   padding: 60px 0;
-  border: 1px dashed indianred;
   text-align: center;
   align-items: center;
 }
 
 .EDUCATION_SECTION {
   border: 1px dashed white;
-  background-color: #1d2d43;
+  background-color: #182025;
 }
 .EDUCATION_TITLE {
   margin: 5px;
@@ -129,8 +120,7 @@ div {
 }
 
 .LANGUAGES_SECTION {
-  border: 1px dashed black;
-  background-color: lightgray;
+  background-color: white;
 }
 .LANGUAGES_TITLE {
   margin: 5px;
@@ -140,21 +130,18 @@ div {
 
 .LANGUAGES_BOX {
   padding: 60px 0;
-  border: 1px dashed indianred;
   text-align: center;
   align-items: center;
 }
 
 .LANGUAGES_TABLE {
   margin: 5px;
-  border: 1px dashed indianred;
   text-align: center;
   align-items: center;
 }
 
 .SOFTWARE_SECTION {
-  border: 1px dashed white;
-  background-color: #1d2d43;
+  background-color: #182025;
 }
 .SOFTWARE_TITLE {
   margin: 5px;
@@ -164,14 +151,12 @@ div {
 
 .SOFTWARE_BOX {
   padding: 60px 0;
-  border: 1px dashed indianred;
   text-align: center;
   align-items: center;
 }
 
 .SKILLS_SECTION {
-  border: 1px dashed black;
-  background-color: lightgray;
+  background-color: white;
 }
 .SKILLS_TITLE {
   margin: 5px;
@@ -181,14 +166,12 @@ div {
 
 .SKILLS_BOX {
   padding: 60px 0;
-  border: 1px dashed indianred;
   text-align: center;
   align-items: center;
 }
 
 .HOBBIES_INTERESTS_SECTION {
-  border: 1px dashed white;
-  background-color: #1d2d43;
+  background-color: #182025;
 }
 .HOBBIES_INTERESTS_TITLE {
   margin: 5px;
@@ -198,14 +181,12 @@ div {
 
 .HOBBIES_INTERESTS_BOX {
   padding: 60px 0;
-  border: 1px dashed indianred;
   text-align: center;
   align-items: center;
 }
 
 .SOCIAL_MEDIA_SECTION {
-  border: 1px dashed black;
-  background-color: lightgray;
+  background-color: white;
 }
 .SOCIAL_MEDIA_TITLE {
   margin: 5px;
@@ -215,7 +196,6 @@ div {
 
 .SOCIAL_MEDIA_BOX {
   padding: 60px 0;
-  border: 1px dashed indianred;
   text-align: center;
   align-items: stretch;
 }
