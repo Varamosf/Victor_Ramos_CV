@@ -31,7 +31,7 @@ h2 {
 
 .INTRODUCTION_SECTION {
   padding-top: 30px;
-  padding-bottom: 65px;
+  padding-bottom: 30px;
   background-color: #182025;
 }
 
@@ -55,7 +55,7 @@ h2 {
 
 .PERSONAL_INFORMATION_SECTION {
   padding-top: 30px;
-  padding-bottom: 65px;
+  padding-bottom: 30px;
   background-color: white;
 }
 
@@ -67,8 +67,8 @@ h2 {
   align-items: center;
 }
 
-.PERSONAL_INFORMATION_BOXES {
-  padding-top: 25px;
+.PERSONAL_INFORMATION_BOXES{
+  padding-top: 15px;
 }
 
 .PERSONAL_INFORMATION_DATA_BOX {
@@ -80,11 +80,9 @@ h2 {
   font-weight: bold;
   text-align: left;
   align-items: center;
-  border: black dashed 1px;
   width: 400px;
   height: 300px;
-  position: relative;
-  left: 300px;
+  float: left;
 }
 
 .PERSONAL_INFORMATION_BOX {
@@ -95,16 +93,14 @@ h2 {
   font-size: 25px;
   text-align: right;
   align-items: center;
-  border: black dashed 1px;
   width: 400px;
   height: 300px;
-  position: relative;
-  left: 400px;
+  float: left;
 }
 
 .RESUME_SECTION {
-  padding-top: 25px;
-  padding-bottom: 65px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   background-color: #182025;
 }
 .RESUME_TITLE {
@@ -127,7 +123,7 @@ h2 {
 
 .WORK_EXPERIENCE_SECTION {
   padding-top: 30px;
-  padding-bottom: 65px;
+  padding-bottom: 30px;
   background-color: white;
 }
 .WORK_EXPERIENCE_TITLE {
@@ -150,7 +146,7 @@ h2 {
 
 .EDUCATION_SECTION {
   padding-top: 30px;
-  padding-bottom: 65px;
+  padding-bottom: 30px;
   background-color: #182025;
 }
 .EDUCATION_TITLE {
@@ -175,7 +171,7 @@ h2 {
 
 .LANGUAGES_SECTION {
   padding-top: 30px;
-  padding-bottom: 65px;
+  padding-bottom: 30px;
   background-color: white;
 }
 .LANGUAGES_TITLE {
@@ -207,7 +203,7 @@ h2 {
 
 .SOFTWARE_SECTION {
   padding-top: 30px;
-  padding-bottom: 65px;
+  padding-bottom: 30px;
   background-color: #182025;
 }
 .SOFTWARE_TITLE {
@@ -230,7 +226,7 @@ h2 {
 
 .SKILLS_SECTION {
   padding-top: 30px;
-  padding-bottom: 65px;
+  padding-bottom: 30px;
   background-color: white;
 }
 .SKILLS_TITLE {
@@ -253,7 +249,7 @@ h2 {
 
 .HOBBIES_INTERESTS_SECTION {
   padding-top: 30px;
-  padding-bottom: 65px;
+  padding-bottom: 30px;
   background-color: #182025;
 }
 .HOBBIES_INTERESTS_TITLE {
@@ -276,7 +272,7 @@ h2 {
 
 .SOCIAL_MEDIA_SECTION {
   padding-top: 30px;
-  padding-bottom: 65px;
+  padding-bottom: 30px;
   background-color: white;
 }
 .SOCIAL_MEDIA_TITLE {
