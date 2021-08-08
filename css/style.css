@@ -184,16 +184,23 @@ h2 {
 }
 table{
   width: 100%;
-  background-color: white;
+  background-color: 	#F4F4F4;
   text-align: left;
   border-collapse: collapse;
+  border-radius: 10px;
 }
 th, td{
   padding: 20px;
 }
 thead{
   background-color:#ea5e5e;
-  border-radius: 10px;
+  color: white;
+}
+tr:nth-child(even){
+background-color: white;
+}
+tr:hover td{
+  background-color: #ea5e5e;
   color: white;
 }
 .LANGUAGES_TABLE {
