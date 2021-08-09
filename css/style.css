@@ -50,6 +50,7 @@ a:hover{
   justify-content: center;
   text-align: center;
   align-items: center;
+  line-height: 40px;
 }
 .Menu-Web ul li{
   display: inline-block;
@@ -59,10 +60,14 @@ a:hover{
   text-decoration: none;
   display: block;
   color: #01FF85;
+  transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
 }
 .Menu-Web ul li a:hover{
   background-color: #01FF85;
   color: #1A2B34;
+  border-radius: 30px;
 }
 
 .Menu-Mobile{
