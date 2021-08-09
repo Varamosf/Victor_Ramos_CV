@@ -36,11 +36,12 @@ a:hover{
 }
 
 .Menu-Web{
-  border: solid black 2px;
+  background-color: #1A2B34;
   text-align: center;
   display: flex;
   justify-content: space-between;
-  margin: 50px auto 0 auto;
+  margin: 0;
+  padding: 0;
   width: 100%;
   align-items: center;
 }
@@ -52,6 +53,18 @@ a:hover{
   justify-content: center;
   gap: 0px;
   text-align: center;
+}
+.Menu-Web ul li{
+  display: inline-block;
+}
+.Menu-Web ul li a{
+  text-decoration: none;
+  display: block;
+  color: #01FF85;
+}
+.Menu-Web ul li a:hover{
+  background-color: #01FF85;
+  color: #1A2B34;
 }
 
 .Menu-Mobile{
