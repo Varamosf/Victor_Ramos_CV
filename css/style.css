@@ -23,7 +23,6 @@ body{
 
 a{
   text-decoration: none;
-  padding: 10px;
   transition: color 0.2s ease-in-out;
 }
 
@@ -35,15 +34,20 @@ a:hover{
   width: 1920px;
 }
 
+nav{
+  height: 70px;
+  width: 100%;
+  background-color:#1A2B34 ;
+}
+
 .Menu-Web{
-  background-color: #1A2B34;
+  position: fixed;
   text-align: center;
   display: flex;
   justify-content: space-between;
-  width: 100%;
-  align-items: center;
 }
 .Menu-Web ul{
+  float: right;
   list-style: none;
   margin: 0;
   display: flex;
@@ -54,11 +58,15 @@ a:hover{
 }
 .Menu-Web ul li{
   display: inline-block;
-  align-items: center;
+  line-height: 40px;
+  display: flex;
 }
 .Menu-Web ul li a{
+  font-family: inherit;
+  font-weight: bold;
   text-decoration: none;
   display: block;
+  padding: 0 25px;
   color: #01FF85;
   transition: all 500ms ease;
   -webkit-transition: all 500ms ease;
@@ -68,6 +76,18 @@ a:hover{
   background-color: #01FF85;
   color: #1A2B34;
   border-radius: 30px;
+}
+
+@media screen and (max-width:950px){
+  div .Menu-Web,
+  div .Menu-Web ul{
+    width:100%;
+    text-align: center;
+    line-height: 40px;
+  }
+  .Menu-Web{
+    height: auto;
+  }
 }
 
 .Menu-Mobile{
@@ -123,25 +143,15 @@ display: none;
 }
 }
 
-.HOME_MENU {
-  background-color: #f7ba3e;
-  align-items: center;
-  text-align: center;
-}
-
-.HOME_MENU_TITLE {
-  color: #182025;
-  font-family: inherit;
-  font-weight: bold;
-  text-decoration: none;
-}
-
 .INTRODUCTION_SECTION {
-  padding-top: 30px;
+  height: 800px;
+  width: 100%;
+  padding-top: 100px;
   padding-bottom: 30px;
   background-color: #182025;
 }
 .INTRODUCTION_TITLE {
+  height: 40px;
   color: #f7ba3e;
   font-family: inherit;
   font-weight: bold;
@@ -150,7 +160,7 @@ display: none;
 }
 .INTRODUCTION_BOX {
   color: #f7ba3e;
-  padding-top: 15px;
+  padding-top: 50px;
   padding-left: 100px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
     "Open Sans", "Helvetica Neue", sans-serif;
@@ -159,22 +169,29 @@ display: none;
 }
 
 .PERSONAL_INFORMATION_SECTION {
-  padding-top: 30px;
+  height: 800px;
+  width: 100%;
+  padding-top: 100px;
   padding-bottom: 30px;
-  background-color: white;
+  background-color:#1A2B34;
 }
 .PERSONAL_INFORMATION_TITLE {
-  color: #1a2b34;
+  height: 40px;
+  color: #53B6B4;
   font-family: inherit;
   font-weight: bold;
   text-align: center;
   align-items: center;
 }
 .PERSONAL_INFORMATION_BOXES{
-  padding-top: 15px;
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  align-content: center;
 }
 .PERSONAL_INFORMATION_DATA_BOX {
-  color: #1a2b34;
+  color: #53B6B4;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
     "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 500;
@@ -182,29 +199,32 @@ display: none;
   font-weight: bold;
   text-align: left;
   align-items: center;
-  width: 400px;
+  width: 300px;
   height: 300px;
   float: left;
 }
 .PERSONAL_INFORMATION_BOX {
-  color: #1a2b34;
+  color: #53B6B4;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
     "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 500;
   font-size: 25px;
   text-align: right;
   align-items: center;
-  width: 400px;
+  width: 300px;
   height: 300px;
   float: left;
 }
 
 .RESUME_SECTION {
-  padding-top: 30px;
+  height: 800px;
+  width: 100%;
+  padding-top: 100px;
   padding-bottom: 30px;
   background-color: #182025;
 }
 .RESUME_TITLE {
+  height: 40px;
   color: #bf85bf;
   font-family: inherit;
   font-weight: bold;
@@ -213,6 +233,7 @@ display: none;
 }
 .RESUME_BOX {
   color: #bf85bf;
+  padding-top: 50px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
     "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 500;
@@ -222,11 +243,13 @@ display: none;
 }
 
 .WORK_EXPERIENCE_SECTION {
-  padding-top: 30px;
+  width: 100%;
+  padding-top: 100px;
   padding-bottom: 30px;
   background-color: white;
 }
 .WORK_EXPERIENCE_TITLE {
+  height: 40px;
   color: #1a2b34;
   font-family: inherit;
   font-weight: bold;
@@ -235,6 +258,7 @@ display: none;
 }
 .WORK_EXPERIENCE_BOX {
   color: #1a2b34;
+  padding-top: 50px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
     "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 500;
@@ -244,11 +268,13 @@ display: none;
 }
 
 .EDUCATION_SECTION {
-  padding-top: 30px;
+  width: 100%;
+  padding-top: 100px;
   padding-bottom: 30px;
   background-color: #182025;
 }
 .EDUCATION_TITLE {
+  height: 40px;
   color: #53b6b4;
   font-family: inherit;
   font-weight: bold;
@@ -256,8 +282,8 @@ display: none;
   align-items: center;
 }
 .EDUCATION_BOX {
-  padding-top: 15px;
-  padding-bottom: 25px;
+  padding-top: 50px;
+  padding-bottom: 30px;
   color: #53b6b4;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
     "Open Sans", "Helvetica Neue", sans-serif;
@@ -268,21 +294,24 @@ display: none;
 }
 
 .LANGUAGES_SECTION {
-  padding-top: 30px;
+  height: 800px;
+  width: 100%;
+  padding-top: 100px;
   padding-bottom: 30px;
-  background-color: white;
+  background-color:#1A2B34;
 }
 .LANGUAGES_TITLE {
-  color: #1a2b34;
+  height: 40px;
+  color:#01FF85;
   font-family: inherit;
   font-weight: bold;
   text-align: center;
   align-items: center;
 }
 .LANGUAGES_BOX {
-  margin: 30px auto;
-  width: 540px;
+  width: 100%;
   color: #1a2b34;
+  padding-top: 50px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
     "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 500;
@@ -293,6 +322,7 @@ table{
   width: 30%;
   background-color: 	#F4F4F4;
   text-align: left;
+  margin: 0 auto;
   border-collapse: collapse;
   border-radius: 10px;
 }
@@ -300,15 +330,15 @@ th, td{
   padding: 20px;
 }
 thead{
-  background-color:#ea5e5e;
-  color: white;
+  background-color:#01FF85;
+  color:#1a2b34;
 }
 tr:nth-child(even){
 background-color: white;
 }
 tr:hover td{
-  background-color: #ea5e5e;
-  color: white;
+  background-color:#1a2b34 ;
+  color:#01FF85;
 }
 .LANGUAGES_TABLE {
   color: #1a2b34;
@@ -320,41 +350,106 @@ tr:hover td{
 }
 
 .SOFTWARE_SECTION {
-  padding-top: 30px;
+  height: 900px;
+  width: 100%;
+  padding-top: 100px;
   padding-bottom: 30px;
   background-color: #182025;
 }
 .SOFTWARE_TITLE {
-  color: #ea5e5e;
+  height: 40px;
+  color: white;
   font-family: inherit;
   font-weight: bold;
   text-align: center;
   align-items: center;
 }
 .SOFTWARE_BOX {
-  color: #ea5e5e;
+  padding-top: 50px;
+  color:white;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
     "Open Sans", "Helvetica Neue", sans-serif;
-  font-weight: 500;
-  font-size: 25px;
+  font-weight: bold;
+  font-size: 20px;
   text-align: center;
-  align-items: center;
+}
+
+.Software-Grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  margin: 0;
+  gap: 20px;
+  justify-items: auto;
+  justify-content: auto;
+}
+
+.Software-Grid .Software-App{
+  padding: 0;
+  position: relative;
+  height: 200px;
+}
+
+.Software-Grid .Software-App img{
+  width: 80%;
+  transform: scale (1,1);
+  transition: all 0.075s;
+}
+
+.Software-Grid .Software-App:hover img{
+  transform: scale (1.2,1.2);
+}
+
+.Software-Grid .Software-App .bg-hover{
+background-color: #182025;
+width: 100%;
+display: grid;
+position: absolute;
+z-index: 2;
+opacity: 0;
+transition: opacity 0.3s ease-in-out;
+transform: scale (1,1);
+justify-items: center;
+align-items: center;
+text-align: center;
+}
+
+.Software-Grid .Software-App:hover .bg-hover{
+  overflow: hidden;
+  opacity: 1;
+}
+
+.Software-Grid .Software-App:hover .bg-hover .info{
+  animation-name: bounce;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes bounce{
+  0% {transform: translateY (500px);}
+  80% {transform: translateY (-50px);}
+  100% {transform: translateY (0px);}
+}
+
+.Expertise-Level{
+  font-weight: normal;
 }
 
 .SKILLS_SECTION {
-  padding-top: 30px;
+  height: 800px;
+  padding-top: 100px;
   padding-bottom: 30px;
-  background-color: white;
+  background-color:#1A2B34;
 }
 .SKILLS_TITLE {
-  color: #1a2b34;
+  height: 40px;
+  color: #6F7B81;
   font-family: inherit;
   font-weight: bold;
   text-align: center;
   align-items: center;
 }
 .SKILLS_BOX {
-  color: #1a2b34;
+  color: #6F7B81;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
     "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 500;
@@ -364,11 +459,13 @@ tr:hover td{
 }
 
 .HOBBIES_INTERESTS_SECTION {
-  padding-top: 30px;
+  height: 800px;
+  padding-top: 100px;
   padding-bottom: 30px;
   background-color: #182025;
 }
 .HOBBIES_INTERESTS_TITLE {
+  height: 40px;
   color: #f6914d;
   font-family: inherit;
   font-weight: bold;
@@ -386,7 +483,8 @@ tr:hover td{
 }
 
 .SOCIAL_MEDIA_SECTION {
-  padding-top: 30px;
+  height: 800px;
+  padding-top: 100px;
   padding-bottom: 30px;
   background-color: white;
 }
