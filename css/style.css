@@ -1,4 +1,131 @@
+/*Importar fuentes de google - Poppins*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+:root{
+  --header-height:  3rem;
+
+  /*Original colors*/
+--dark-blue:           	hsl(201, 33%, 15%);
+--black:                   	hsl(203, 21%, 12%);
+--white:                  	hsl(0, 0%, 100%);
+--bright-green:      	hsl(151, 100%, 50%);
+--light-green:         hsl(142, 69%, 61%);
+--light-purple:        hsl(250, 69%, 61%);
+
+/*Color variables*/
+/*Color bright green*/
+--hue-color-bg:       151;
+/*Color light green*/
+--hue-color-lg:       142;
+/*Color light purple*/
+--hue-color-pr:      250;
+/*Color dark blue*/
+--hue-color-db:     201;
+/*Color black*/
+--hue-color-bl:       203;
+
+/*HSL Color mode bright green*/
+--first-color-bg:                   hsl((var(--hue-color-bg), 100%, 50%);
+--first-color-second-bg:     hsl((var(--hue-color-bg), 100%, 50%);
+--first-color-alt-bg:             hsl((var(--hue-color-bg), 57%, 53%);
+--first-color-lighter-bg:      hsl((var(--hue-color-bg), 92%, 85%);
+--title-color-bg:                   hsl((var(--hue-color-bg), 8%, 15%);
+--text-color-bg:                   hsl((var(--hue-color-bg), 8%, 45%);
+--text-color-light-bg:          hsl((var(--hue-color-bg), 8%, 65%);
+--input-color-bg:                 hsl((var(--hue-color-bg), 70%, 96%);
+--body-color-bg:                 hsl((var(--hue-color-bg), 60%, 99%);
+/*HSL color mode light green*/
+--first-color-lg:                   hsl((var(--hue-color-lg), 69%, 61%);
+--first-color-second-lg:     hsl((var(--hue-color-lg), 69%, 61%);
+--first-color-alt-lg:             hsl((var(--hue-color-lg), 57%, 53%);
+--first-color-lighter-lg:      hsl((var(--hue-color-lg), 92%, 85%);
+--title-color-lg:                   hsl((var(--hue-color-lg), 8%, 15%);
+--text-color-lg:                   hsl((var(--hue-color-lg), 8%, 45%);
+--text-color-light-lg:          hsl((var(--hue-color-lg), 8%, 65%);
+--input-color-lg:                 hsl((var(--hue-color-lg), 70%, 96%);
+--body-color-lg:                 hsl((var(--hue-color-lg), 60%, 99%);
+/*HSL color mode purple*/
+--first-color-lp:                   hsl((var(--hue-color-lp), 69%, 61%);
+--first-color-second-lp:     hsl((var(--hue-color-lp), 69%, 61%);
+--first-color-alt-lp:             hsl((var(--hue-color-lp), 57%, 53%);
+--first-color-lighter-lp:      hsl((var(--hue-color-lp), 92%, 85%);
+--title-color-lp:                   hsl((var(--hue-color-lp), 8%, 15%);
+--text-color-lp:                   hsl((var(--hue-color-lp), 8%, 45%);
+--text-color-light-lp:          hsl((var(--hue-color-lp), 8%, 65%);
+--input-color-lp:                 hsl((var(--hue-color-lp), 70%, 96%);
+--body-color-lp:                 hsl((var(--hue-color-lp), 60%, 99%);
+/*HSL color mode dark blue*/
+--first-color-db:                   hsl((var(--hue-color-db), 33%, 15%);
+--first-color-second-db:     hsl((var(--hue-color-db), 33%, 15%);
+--first-color-alt-db:             hsl((var(--hue-color-db), 57%, 53%);
+--first-color-lighter-db:      hsl((var(--hue-color-db), 92%, 85%);
+--title-color-db:                   hsl((var(--hue-color-db), 8%, 15%);
+--text-color-db:                   hsl((var(--hue-color-db), 8%, 45%);
+--text-color-light-db:          hsl((var(--hue-color-db), 8%, 65%);
+--input-color-db:                 hsl((var(--hue-color-db), 70%, 96%);
+--body-color-db:                 hsl((var(--hue-color-db), 60%, 99%);
+/*HSL color mode black*/
+--first-color-bl:                   hsl((var(--hue-color-bl), 21%, 12%);
+--first-color-second-bl:     hsl((var(--hue-color-bl), 21%, 12%);
+--first-color-alt-bl:             hsl((var(--hue-color-bl), 57%, 53%);
+--first-color-lighter-bl:      hsl((var(--hue-color-bl), 92%, 85%);
+--title-color-bl:                   hsl((var(--hue-color-bl), 8%, 15%);
+--text-color-bl:                   hsl((var(--hue-color-bl), 8%, 45%);
+--text-color-light-bl:          hsl((var(--hue-color-bl), 8%, 65%);
+--input-color-bl:                 hsl((var(--hue-color-bl), 70%, 96%);
+--body-color-bl:                 hsl((var(--hue-color-bl), 60%, 99%);
+
+--container-color-white:  hsl(0, 0%, 100%);
+
+/*Fonts & Typography*/
+--body-font: 'Poppins', sans-serif;
+
+/*Sizes*/
+/*0.5 rem = 8px, 1 rem = 16px, 1.5 rem = 24px, 2rem = 32px, ...*/
+--big-font-size:                  2rem;
+--h1-font-size:                   1.5rem;
+--h2-font-size:                   1.25rem;
+--h3-font-size:                   1.125rem;
+--normal-font-size:           0.938rem;
+--small-font-size:              0.813rem;
+--smaller-font-size:          0.750rem;
+
+/*Font weights*/
+--font-medium: 500;
+--font-bold:        600;
+
+/*Bottom margins*/
+/*0.25rem = 4px, 0.5rem = 8px, 0.75rem = 12px, 1rem = 16px ...*/
+--bm-0-25:  0.25rem;
+--bm-0-50:  0.50rem;
+--bm-0-75:  0.75rem;
+--bm-1-00:  1.00rem;
+--bm-1-50:  1.50rem;
+--bm-2-00:  2.00rem;
+--bm-2-50:  2.50rem;
+--bm-3-00:  3.00rem;
+
+/*z-index*/
+--z-tooltip:  10;
+--z-fixed:      100;
+--z-modal:    1000;
+}
+
+/*Font size for large devices*/
+@media screen and (min-width: 968px) 
+{
+  :root
+  {
+--big-font-size:                  3.00rem;
+--h1-font-size:                   2.25rem;
+--h2-font-size:                   1.50rem;
+--h3-font-size:                   1.25rem;
+--normal-font-size:           1.00rem;
+--small-font-size:              0.875rem;
+--smaller-font-size:          0.813rem;
+  }
+}
+
 
 html,
 * {
