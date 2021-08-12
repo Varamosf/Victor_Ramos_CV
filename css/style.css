@@ -92,7 +92,7 @@
 
 /*Font weights*/
 --font-medium: 500;
---font-bold:        600;
+--font-semi-bold:        600;
 
 /*Bottom margins*/
 /*0.25rem = 4px, 0.5rem = 8px, 0.75rem = 12px, 1rem = 16px ...*/
@@ -126,28 +126,33 @@
   }
 }
 
-
-html,
-* {
+/*Base*/
+*{
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  font-family: inherit;
 }
 
-h2 {
-  font-family: inherit;
-  font-size: 45px;
+html{
+  scroll-behavior: smooth;
 }
 
 body{
-  line-height: 2;
-  padding: 0;
-  margin: 0;
+  margin: 0 0 var(--header-height) 0;
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  background-color: var(--body-color-db);
+  color: var(--text-color-bg);
+  line-height: 2; 
 }
 
-::selection{
-  background-color: white;
+h1,h2,h3,h4{
+  color: var(--title-color-bg);
+  font-weight: var(--font-semi-bold);
+} 
+
+ul{
+  list-style: none;
 }
 
 a{
@@ -158,6 +163,21 @@ a{
 a:hover{
   color: white;
 }
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+/*Reusable CSS Classes*/
+.section{
+  padding: 2rem 0 4rem;
+}
+
+::selection{
+  background-color: white;
+}
+
 
 .container{
   width: 1920px;
