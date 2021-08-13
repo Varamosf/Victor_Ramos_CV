@@ -449,6 +449,7 @@ font-size: var(--normal-font-size);
 font-weight: var(--font-semi-bold);
 text-align: center;
 align-items: center;
+margin-left: 1rem;
 }
 .info__detail{
 color: var(--dark-blue);
@@ -468,7 +469,7 @@ padding: 2.5px;
   margin-right: var(--mg-1-00);
   margin-left: var(--mg-1-00);
   margin-bottom: var(--mg-2-50);
-  text-align: right;
+  text-align: left;
   color: white;
   padding-top: 1rem;
 }
@@ -496,6 +497,55 @@ padding: 2.5px;
 .info__buttons{
   display: flex;
   justify-content: center;
+}
+
+
+
+
+.skills__section {
+  height: 800px;
+  width: 100%;
+  padding-bottom: 30px;
+  background-color: #1a2b34;
+}
+.skills__section__title {
+  color: #01ff85;
+  color: var(--bright-green);
+  font-weight: bold;
+  text-align: center;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+.skills__section__subtitle{
+color: var(--bright-green);
+font-size: var(--normal-font-size);
+font-weight: var(--font-semi-bold);
+text-align: center;
+align-items: center;
+margin-left: 1rem;
+}
+.skills__header{
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--mg-2-50);
+  cursor: pointer;
+}
+.skills__icon, .skills_arrow{
+  font-size: 2rem;
+  color: var(--bright-green);
+}
+.skills__icon{
+  margin-right: var(--mg-0-75);
+}
+.skills__title{
+  font-size: var(--h2-font-size);
+}
+
+
+
+.skills__container {
+  row-gap: 0;
+  color: #01ff85;
 }
 
 /*
@@ -864,30 +914,6 @@ tr:hover td {
 
 .Expertise-Level {
   font-weight: normal;
-}
-
-.skills__section {
-  height: 800px;
-  padding-top: 100px;
-  padding-bottom: 30px;
-  background-color: #1a2b34;
-}
-.skills__section__title {
-  height: 40px;
-  color: #01ff85;
-  font-family: inherit;
-  font-weight: bold;
-  text-align: center;
-  align-items: center;
-}
-.SKILLS_BOX {
-  color: #01ff85;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
-    "Open Sans", "Helvetica Neue", sans-serif;
-  font-weight: 500;
-  font-size: 25px;
-  text-align: center;
-  align-items: center;
 }
 
 .HOBBIES_INTERESTS_SECTION {
