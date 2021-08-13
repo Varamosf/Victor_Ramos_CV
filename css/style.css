@@ -499,17 +499,20 @@ padding: 2.5px;
   justify-content: center;
 }
 
-
-
-
+.skills__header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--mg-2-50);
+  cursor: pointer;
+}
 .skills__section {
   height: 800px;
-  width: 100%;
   padding-bottom: 30px;
-  background-color: #1a2b34;
+  background-color: var(--dark-blue);
 }
 .skills__section__title {
-  color: #01ff85;
+  color: var(--bright-green);
   color: var(--bright-green);
   font-weight: bold;
   text-align: center;
@@ -524,13 +527,10 @@ text-align: center;
 align-items: center;
 margin-left: 1rem;
 }
-.skills__header{
-  display: flex;
-  align-items: center;
-  margin-bottom: var(--mg-2-50);
-  cursor: pointer;
+.skills__content {
+  row-gap: 0;
 }
-.skills__icon, .skills_arrow{
+.skills__icon, .skills__arrow{
   font-size: 2rem;
   color: var(--bright-green);
 }
@@ -538,16 +538,75 @@ margin-left: 1rem;
   margin-right: var(--mg-0-75);
 }
 .skills__title{
-  font-size: var(--h2-font-size);
+  font-size: var(--h3-font-size);
+  font-weight: bold;
+}
+.skills__subtitle{
+color: var(--text-color-light-bg);
+}
+.skills__arrow{
+  margin-left: auto;
+  transition: 0.4s;
+}
+.skills__title{
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: var(--mg-0-50);
+}
+.skills__name{
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
 }
 
-
-
-.skills__container {
-  row-gap: 0;
-  color: #01ff85;
+.skills__bar, .skills__percentage{
+height: 5px;
+border-radius: 0.25rem;
 }
 
+.skills__bar{
+  background-color: var(--first-color-lighter-bg);
+}
+.skills__percentage{
+  display: block;
+  background-color: var(--first-color-bg);
+}
+ .skills__stp5{
+   width: 100%;
+ }
+ .skills__ct5{
+   width: 100%;
+ }
+.skills__cf4{
+  width: 80%;
+}
+.skills__cps4{
+  width: 80%;
+}
+.skills__rsl5{
+  width: 100%;
+}
+.skills__sm4{
+  width: 80%;
+}
+.skills__emp5{
+  width: 100%;
+}
+.skills__ass4{
+  width: 80%;
+}
+.skills__tmw4{
+  width: 80%;
+}
+.skills__ldr4{
+  width: 80%;
+}
+.skills__coa4{
+  width: 80%;
+}
+.skills__comm4{
+  width: 80%;
+}
 /*
 ::selection {
   background-color: white;
