@@ -29,112 +29,141 @@
     <header class="header" id="header">
       <nav class="nav container">
         <a href="#" class="nav__logo">Victor</a>
+
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list grid">
             <li class="nav__item">
-              <a href="#INTRO" class="nav__link"> <i class="uil uil-play"></i> INTRO </a>
+              <a href="#INTRO" class="nav__link"> <i class="uil uil-play nav__icon"></i> INTRO </a>
             </li>
 
             <li class="nav__item">
-              <a href="#INFO" class="nav__link"> <i class="uil uil-info-circle"></i> INFO </a>
+              <a href="#INFO" class="nav__link">
+                <i class="uil uil-info-circle nav__icon"></i> INFO
+              </a>
             </li>
 
             <li class="nav__item">
-              <a href="#RESUME" class="nav__link"> <i class="uil uil-file-alt"></i> RESUME </a>
+              <a href="#RESUME" class="nav__link">
+                <i class="uil uil-file-alt nav__icon"></i> RESUME
+              </a>
             </li>
 
             <li class="nav__item">
-              <a href="#WORK" class="nav__link"> <i class="uil uil-constructor"></i> WORK </a>
+              <a href="#WORK" class="nav__link">
+                <i class="uil uil-constructor nav__icon"></i> WORK
+              </a>
             </li>
 
             <li class="nav__item">
               <a href="#EDUCATION" class="nav__link">
-                <i class="uil uil-graduation-cap"></i> EDUCATION
+                <i class="uil uil-graduation-cap nav__icon"></i> EDUCATION
               </a>
             </li>
 
             <li class="nav__item">
               <a href="#LANGUAGES" class="nav__link">
-                <i class="uil uil-english-to-chinese"></i> LANGUAGES
+                <i class="uil uil-english-to-chinese nav__icon"></i> LANGUAGES
               </a>
             </li>
 
             <li class="nav__item">
-              <a href="#SOFTWARE" class="nav__link"> <i class="uil uil-processor"></i> SOFTWARE </a>
+              <a href="#SOFTWARE" class="nav__link">
+                <i class="uil uil-processor nav__icon"></i> SOFTWARE
+              </a>
             </li>
 
             <li class="nav__item">
-              <a href="#SKILLS" class="nav__link"> <i class="uil uil-list-ul"></i> SKILLS </a>
+              <a href="#SKILLS" class="nav__link">
+                <i class="uil uil-list-ul nav__icon"></i> SKILLS
+              </a>
             </li>
 
             <li class="nav__item">
               <a href="#HOBBIES" class="nav__link">
-                <i class="uil uil-headphones-alt"></i> HOBBIES
+                <i class="uil uil-headphones-alt nav__icon"></i> HOBBIES
               </a>
             </li>
 
             <li class="nav__item">
-              <a href="#SOCIAL" class="nav__link"> <i class="uil uil-users-alt"></i> SOCIAL </a>
+              <a href="#SOCIAL" class="nav__link">
+                <i class="uil uil-users-alt nav__icon"></i> SOCIAL
+              </a>
             </li>
           </ul>
+
           <i class="uil uil-times nav__close" id="nav-close"></i>
         </div>
 
         <div class="nav__buttons">
           <div class="nav__toggle" id="nav-toggle">
-            <i class="uil uil-airplay"></i>
+            <i class="uil uil-apps"></i>
           </div>
         </div>
       </nav>
     </header>
-    <div class="Main-Container">
-      <!--Menù para pàgina web-->
-      <nav class="Menu-Web">
-        <ul>
-          <li><a href="#INTRO">INTRO </a></li>
-          <li><a href="#INFO">INFO </a></li>
-          <li><a href="#RESUME">RESUME </a></li>
-          <li><a href="#WORK">WORK </a></li>
-          <li><a href="#EDUCATION">EDUCATION </a></li>
-          <li><a href="#LANGUAGES">LANGUAGES </a></li>
-          <li><a href="#SOFTWARE">SOFTWARE </a></li>
-          <li><a href="#SKILLS">SKILLS </a></li>
-          <li><a href="#HOBBIES">HOBBIES </a></li>
-          <li><a href="#SOCIAL">SOCIAL </a></li>
-        </ul>
-      </nav>
-      <!--Menù para dispositivos mòviles-->
-      <div class="Menu-Mobile">
-        <div class="Menu-Open-Close">
-          <div class="Header">
-            <a href="#" class="">
-              <img src="img/bx-menu.svg" alt="Icono de menú hamburguesa" />
-            </a>
-          </div>
-          <div id="Menu-Mobile-Items" class="Menu-Mobile-Closed">
-            <ul>
-              <li><a class="HOME_MENU_TITLE" href="INTRODUCTION">INTRODUCTION </a></li>
-              <li><a class="HOME_MENU_TITLE" href="#PERSONAL INFORMATION">PERSONAL INFO </a></li>
-              <li><a class="HOME_MENU_TITLE" href="#RESUME">RESUME </a></li>
-              <li><a class="HOME_MENU_TITLE" href="#WORK EXPERIENCE">WORK EXPERIENCE </a></li>
-              <li><a class="HOME_MENU_TITLE" href="#EDUCATION">EDUCATION </a></li>
-              <li><a class="HOME_MENU_TITLE" href="#LANGUAGES">LANGUAGES </a></li>
-              <li><a class="HOME_MENU_TITLE" href="#SOFTWARE">SOFTWARE </a></li>
-              <li><a class="HOME_MENU_TITLE" href="#SKILLS">SKILLS </a></li>
-              <li
-                ><a class="HOME_MENU_TITLE" href="#HOBBIES & INTERESTS">HOBBIES & INTERESTS </a></li
+
+    <!--Main JS-->
+    <main class="main">
+      <section class="intro__section section" id="INTRO">
+        <div class="intro__container container grid">
+          <div class="intro__content grid">
+            <div class="intro__social">
+              <a href="https://mx.linkedin.com/" target="_blank" class="intro__social-icon">
+                <i class="uil uil-linkedin"></i>
+              </a>
+              <a href="https://github.com/" target="_blank" class="intro__social-icon">
+                <i class="uil uil-github"></i>
+              </a>
+            </div>
+
+            <div class="intro__image">
+              <svg
+                class="intro__blob"
+                viewBox="0 0 200 187"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
               >
-              <li><a class="HOME_MENU_TITLE" href="#SOCIAL MEDIA">SOCIAL MEDIA </a></li>
-            </ul>
+                <mask id="mask0" mask-type="alpha">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                      130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                      97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                      0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                </mask>
+                <g mask="url(#mask0)">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                      165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                      129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                      -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                  <image class="intro__blob-img" href="img/foto-victor.jpg" />
+                </g>
+              </svg>
+            </div>
+
+            <div class="intro__data">
+              <h1 class="intro__title">INTRO</h1>
+              <h2 class="intro__subtitle">Hi, I'm Victor Ramos</h2>
+              <h3 class="intro__subtitle">Engineer in Industrial Robotics</h3>
+              <p class="intro__description"
+                >Seven years experience in manufacturing, oil & gas and automotive industrial
+                environments. With strong Maintenance background</p
+              >
+              <a href="#contact" class="button button--flex">
+                Contact Me <i class="uil uil-message button__icon"></i>
+              </a>
+            </div>
+
+            <div class="intro__scroll">
+              <a href="#INFO" class="intro__scroll-button button">
+                <i class="uil uil-mouse-alt-2 intro__scroll-mouse"></i>
+                <span class="intro__scroll-name">Scroll down</span>
+                <i class="uil uil-arrow-circle-down intro__scroll-arrowdown"></i>
+              </a>
+            </div>
           </div>
-        </div>
-      </div>
-      <!--Sección de introducción al perfil-->
-      <section class="INTRODUCTION_SECTION" id="INTRO">
-        <h2 class="INTRODUCTION_TITLE">INTRO</h2>
-        <div class="INTRODUCTION_BOX">
-          <p>Victor Augusto Ramos Flores</p>
-          <p>Engineer in Industrial Robotics</p>
         </div>
       </section>
       <!--Sección de información personal de Victor Ramos-->
@@ -573,10 +602,7 @@
           <img src="img/bxl-whatsapp.svg" alt="Whatsapp_logo" class="WHATSAPP_LOGO" width="80" />
         </div>
       </section>
-    </div>
-
-    <footer class="Footer"> </footer>
-    <!--Main JS-->
+    </main>
     <script src="js/main.js"></script>
   </body>
 </html>
