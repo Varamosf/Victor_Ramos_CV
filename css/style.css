@@ -479,6 +479,7 @@ padding: 2.5px;
   row-gap: 1.5rem;
   justify-content: space-evenly;
   margin-bottom: var(--mg-2-50);
+  padding-bottom: 1rem;
 }
 .info__subheader{
   font-size: var(--smaller-font-size);
@@ -487,7 +488,9 @@ padding: 2.5px;
 }
 .info__detail, .info__subheader{
   display: block;
+  justify-content: center;
   text-align: center;
+  align-items: center;
 }
 
 .info__buttons{
@@ -869,7 +872,7 @@ tr:hover td {
   padding-bottom: 30px;
   background-color: #1a2b34;
 }
-.skills__title {
+.skills__section__title {
   height: 40px;
   color: #01ff85;
   font-family: inherit;
