@@ -1,201 +1,267 @@
 /*Importar fuentes de google - Poppins*/
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
-:root{
-  --header-height:  3rem;
-
+:root {
+  --header-height: 3rem;
   /*Original colors*/
---dark-blue:           	hsl(201, 33%, 15%);
---black:                   	hsl(203, 21%, 12%);
---white:                  	hsl(0, 0%, 100%);
---bright-green:      	hsl(151, 100%, 50%);
---light-green:         hsl(142, 69%, 61%);
---light-purple:        hsl(250, 69%, 61%);
-
-/*Color variables*/
-/*Color bright green*/
---hue-color-bg:       151;
-/*Color light green*/
---hue-color-lg:       142;
-/*Color light purple*/
---hue-color-pr:      250;
-/*Color dark blue*/
---hue-color-db:     201;
-/*Color black*/
---hue-color-bl:       203;
-
-/*HSL Color mode bright green*/
---first-color-bg:                   hsl((var(--hue-color-bg), 100%, 50%);
---first-color-second-bg:     hsl((var(--hue-color-bg), 100%, 50%);
---first-color-alt-bg:             hsl((var(--hue-color-bg), 57%, 53%);
---first-color-lighter-bg:      hsl((var(--hue-color-bg), 92%, 85%);
---title-color-bg:                   hsl((var(--hue-color-bg), 8%, 15%);
---text-color-bg:                   hsl((var(--hue-color-bg), 8%, 45%);
---text-color-light-bg:          hsl((var(--hue-color-bg), 8%, 65%);
---input-color-bg:                 hsl((var(--hue-color-bg), 70%, 96%);
---body-color-bg:                 hsl((var(--hue-color-bg), 60%, 99%);
-/*HSL color mode light green*/
---first-color-lg:                   hsl((var(--hue-color-lg), 69%, 61%);
---first-color-second-lg:     hsl((var(--hue-color-lg), 69%, 61%);
---first-color-alt-lg:             hsl((var(--hue-color-lg), 57%, 53%);
---first-color-lighter-lg:      hsl((var(--hue-color-lg), 92%, 85%);
---title-color-lg:                   hsl((var(--hue-color-lg), 8%, 15%);
---text-color-lg:                   hsl((var(--hue-color-lg), 8%, 45%);
---text-color-light-lg:          hsl((var(--hue-color-lg), 8%, 65%);
---input-color-lg:                 hsl((var(--hue-color-lg), 70%, 96%);
---body-color-lg:                 hsl((var(--hue-color-lg), 60%, 99%);
-/*HSL color mode purple*/
---first-color-lp:                   hsl((var(--hue-color-lp), 69%, 61%);
---first-color-second-lp:     hsl((var(--hue-color-lp), 69%, 61%);
---first-color-alt-lp:             hsl((var(--hue-color-lp), 57%, 53%);
---first-color-lighter-lp:      hsl((var(--hue-color-lp), 92%, 85%);
---title-color-lp:                   hsl((var(--hue-color-lp), 8%, 15%);
---text-color-lp:                   hsl((var(--hue-color-lp), 8%, 45%);
---text-color-light-lp:          hsl((var(--hue-color-lp), 8%, 65%);
---input-color-lp:                 hsl((var(--hue-color-lp), 70%, 96%);
---body-color-lp:                 hsl((var(--hue-color-lp), 60%, 99%);
-/*HSL color mode dark blue*/
---first-color-db:                   hsl((var(--hue-color-db), 33%, 15%);
---first-color-second-db:     hsl((var(--hue-color-db), 33%, 15%);
---first-color-alt-db:             hsl((var(--hue-color-db), 57%, 53%);
---first-color-lighter-db:      hsl((var(--hue-color-db), 92%, 85%);
---title-color-db:                   hsl((var(--hue-color-db), 8%, 15%);
---text-color-db:                   hsl((var(--hue-color-db), 8%, 45%);
---text-color-light-db:          hsl((var(--hue-color-db), 8%, 65%);
---input-color-db:                 hsl((var(--hue-color-db), 70%, 96%);
---body-color-db:                 hsl((var(--hue-color-db), 60%, 99%);
-/*HSL color mode black*/
---first-color-bl:                   hsl((var(--hue-color-bl), 21%, 12%);
---first-color-second-bl:     hsl((var(--hue-color-bl), 21%, 12%);
---first-color-alt-bl:             hsl((var(--hue-color-bl), 57%, 53%);
---first-color-lighter-bl:      hsl((var(--hue-color-bl), 92%, 85%);
---title-color-bl:                   hsl((var(--hue-color-bl), 8%, 15%);
---text-color-bl:                   hsl((var(--hue-color-bl), 8%, 45%);
---text-color-light-bl:          hsl((var(--hue-color-bl), 8%, 65%);
---input-color-bl:                 hsl((var(--hue-color-bl), 70%, 96%);
---body-color-bl:                 hsl((var(--hue-color-bl), 60%, 99%);
-
---container-color-white:  hsl(0, 0%, 100%);
-
-/*Fonts & Typography*/
---body-font: 'Poppins', sans-serif;
-
-/*Sizes*/
-/*0.5 rem = 8px, 1 rem = 16px, 1.5 rem = 24px, 2rem = 32px, ...*/
---big-font-size:                  2rem;
---h1-font-size:                   1.5rem;
---h2-font-size:                   1.25rem;
---h3-font-size:                   1.125rem;
---normal-font-size:           0.938rem;
---small-font-size:              0.813rem;
---smaller-font-size:          0.750rem;
-
-/*Font weights*/
---font-medium: 500;
---font-semi-bold:        600;
-
-/*Bottom margins*/
-/*0.25rem = 4px, 0.5rem = 8px, 0.75rem = 12px, 1rem = 16px ...*/
---bm-0-25:  0.25rem;
---bm-0-50:  0.50rem;
---bm-0-75:  0.75rem;
---bm-1-00:  1.00rem;
---bm-1-50:  1.50rem;
---bm-2-00:  2.00rem;
---bm-2-50:  2.50rem;
---bm-3-00:  3.00rem;
-
-/*z-index*/
---z-tooltip:  10;
---z-fixed:      100;
---z-modal:    1000;
+  --dark-blue: hsl(201, 33%, 15%);
+  --black: hsl(203, 21%, 12%);
+  --white: hsl(0, 0%, 100%);
+  --bright-green: hsl(151, 100%, 50%);
+  --light-green: hsl(142, 69%, 61%);
+  --light-purple: hsl(250, 69%, 61%);
+  /*Color variables*/
+  /*Color bright green*/
+  --hue-color-bg: 151;
+  /*Color light green*/
+  --hue-color-lg: 142;
+  /*Color light purple*/
+  --hue-color-pr: 250;
+  /*Color dark blue*/
+  --hue-color-db: 201;
+  /*Color black*/
+  --hue-color-bl: 203;
+  /*HSL Color mode bright green*/
+  --first-color-bg: hsl(var(--hue-color-bg), 100%, 50%);
+  --first-color-second-bg: hsl(var(--hue-color-bg), 100%, 50%);
+  --first-color-alt-bg: hsl(var(--hue-color-bg), 57%, 53%);
+  --first-color-lighter-bg: hsl(var(--hue-color-bg), 92%, 85%);
+  --title-color-bg: hsl(var(--hue-color-bg), 8%, 15%);
+  --text-color-bg: hsl(var(--hue-color-bg), 8%, 45%);
+  --text-color-light-bg: hsl(var(--hue-color-bg), 8%, 65%);
+  --input-color-bg: hsl(var(--hue-color-bg), 70%, 96%);
+  --body-color-bg: hsl(var(--hue-color-bg), 60%, 99%);
+  /*HSL color mode light green*/
+  --first-color-lg: hsl(var(--hue-color-lg), 69%, 61%);
+  --first-color-second-lg: hsl(var(--hue-color-lg), 69%, 61%);
+  --first-color-alt-lg: hsl(var(--hue-color-lg), 57%, 53%);
+  --first-color-lighter-lg: hsl(var(--hue-color-lg), 92%, 85%);
+  --title-color-lg: hsl(var(--hue-color-lg), 8%, 15%);
+  --text-color-lg: hsl(var(--hue-color-lg), 8%, 45%);
+  --text-color-light-lg: hsl(var(--hue-color-lg), 8%, 65%);
+  --input-color-lg: hsl(var(--hue-color-lg), 70%, 96%);
+  --body-color-lg: hsl(var(--hue-color-lg), 60%, 99%);
+  /*HSL color mode purple*/
+  --first-color-lp: hsl(var(--hue-color-lp), 69%, 61%);
+  --first-color-second-lp: hsl(var(--hue-color-lp), 69%, 61%);
+  --first-color-alt-lp: hsl(var(--hue-color-lp), 57%, 53%);
+  --first-color-lighter-lp: hsl(var(--hue-color-lp), 92%, 85%);
+  --title-color-lp: hsl(var(--hue-color-lp), 8%, 15%);
+  --text-color-lp: hsl(var(--hue-color-lp), 8%, 45%);
+  --text-color-light-lp: hsl(var(--hue-color-lp), 8%, 65%);
+  --input-color-lp: hsl(var(--hue-color-lp), 70%, 96%);
+  --body-color-lp: hsl(var(--hue-color-lp), 60%, 99%);
+  /*HSL color mode dark blue*/
+  --first-color-db: hsl(var(--hue-color-db), 33%, 15%);
+  --first-color-second-db: hsl(var(--hue-color-db), 33%, 15%);
+  --first-color-alt-db: hsl(var(--hue-color-db), 57%, 53%);
+  --first-color-lighter-db: hsl(var(--hue-color-db), 92%, 85%);
+  --title-color-db: hsl(var(--hue-color-db), 8%, 15%);
+  --text-color-db: hsl(var(--hue-color-db), 8%, 45%);
+  --text-color-light-db: hsl(var(--hue-color-db), 8%, 65%);
+  --input-color-db: hsl(var(--hue-color-db), 70%, 96%);
+  --body-color-db: hsl(var(--hue-color-db), 60%, 99%);
+  /*HSL color mode black*/
+  --first-color-bl: hsl(var(--hue-color-bl), 21%, 12%);
+  --first-color-second-bl: hsl(var(--hue-color-bl), 21%, 12%);
+  --first-color-alt-bl: hsl(var(--hue-color-bl), 57%, 53%);
+  --first-color-lighter-bl: hsl(var(--hue-color-bl), 92%, 85%);
+  --title-color-bl: hsl(var(--hue-color-bl), 8%, 15%);
+  --text-color-bl: hsl(var(--hue-color-bl), 8%, 45%);
+  --text-color-light-bl: hsl(var(--hue-color-bl), 8%, 65%);
+  --input-color-bl: hsl(var(--hue-color-bl), 70%, 96%);
+  --body-color-bl: hsl(var(--hue-color-bl), 60%, 99%);
+  --container-color-white: hsl(0, 0%, 100%);
+  /*Fonts & Typography*/
+  --body-font: "Poppins", sans-serif;
+  /*Sizes*/
+  /*0.5 rem = 8px, 1 rem = 16px, 1.5 rem = 24px, 2rem = 32px, ...*/
+  --big-font-size: 2rem;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1.125rem;
+  --normal-font-size: 0.938rem;
+  --small-font-size: 0.813rem;
+  --smaller-font-size: 0.75rem;
+  /*Font weights*/
+  --font-medium: 500;
+  --font-semi-bold: 600;
+  /*Bottom margins*/
+  /*0.25rem = 4px, 0.5rem = 8px, 0.75rem = 12px, 1rem = 16px ...*/
+  --mg-0-25: 0.25rem;
+  --mg-0-50: 0.5rem;
+  --mg-0-75: 0.75rem;
+  --mg-1-00: 1rem;
+  --mg-1-50: 1.5rem;
+  --mg-2-00: 2rem;
+  --mg-2-50: 2.5rem;
+  --mg-3-00: 3rem;
+  /*z-index*/
+  --z-tooltip: 10;
+  --z-fixed: 100;
+  --z-modal: 1000;
 }
 
 /*Font size for large devices*/
-@media screen and (min-width: 968px) 
-{
-  :root
-  {
---big-font-size:                  3.00rem;
---h1-font-size:                   2.25rem;
---h2-font-size:                   1.50rem;
---h3-font-size:                   1.25rem;
---normal-font-size:           1.00rem;
---small-font-size:              0.875rem;
---smaller-font-size:          0.813rem;
+@media screen and (min-width: 968px) {
+  :root {
+    --big-font-size: 3rem;
+    --h1-font-size: 2.25rem;
+    --h2-font-size: 1.5rem;
+    --h3-font-size: 1.25rem;
+    --normal-font-size: 1rem;
+    --small-font-size: 0.875rem;
+    --smaller-font-size: 0.813rem;
   }
 }
 
 /*Base*/
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
-body{
+body {
   margin: 0 0 var(--header-height) 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  background-color: var(--body-color-db);
-  color: var(--text-color-bg);
-  line-height: 2; 
+  background-color: var(--dark-blue);
+  color: var(--bright-green);
+  line-height: 2;
 }
 
-h1,h2,h3,h4{
-  color: var(--title-color-bg);
+h1,
+h2,
+h3,
+h4 {
+  color: var(--bright-green);
   font-weight: var(--font-semi-bold);
-} 
+}
 
-ul{
+ul {
   list-style: none;
 }
 
-a{
+a {
   text-decoration: none;
   transition: color 0.2s ease-in-out;
 }
 
-a:hover{
+a:hover {
   color: white;
 }
 
-img{
+img {
   max-width: 100%;
   height: auto;
 }
 
 /*Reusable CSS Classes*/
-.section{
+.section {
   padding: 2rem 0 4rem;
 }
 
-::selection{
+.section__title {
+  font-size: var(--h1-font-size);
+}
+
+.section__subtitle {
+  display: block;
+  font-size: var(--small-font-size);
+  margin-bottom: var(--mg-3-00);
+}
+
+.section__titles,
+.section__subtitle {
+  text-align: center;
+}
+
+/*Layour*/
+.container {
+  max-width: 768px;
+  margin-left: var(--mg-1-50);
+  margin-right: var(--mg-1-50);
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.header {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: var(--z-fixed);
+  background-color: var(--dark-blue);
+}
+
+.nav {
+  max-width: 968px;
+  height: var(--header-height);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  /*height: 70px;*/
+  /*width: 100%;*/
+}
+
+.nav__logo,
+.nav__toogle {
+  color: var(--bright-green);
+  font-weight: var(--font-medium);
+}
+
+.nav__logo:hover {
+  color: var(--first-color-bg);
+}
+
+.nav__toogle {
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.nav__toogle:hover {
+  color: var(--bright-green);
+}
+
+@media screen and (max-width: 767px) {
+  .nav__menu {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--dark-blue);
+    padding: 2rem 1.5rem 4rem;
+    box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 1.5rem 1.5rem 0 0;
+    transition: 0.3s;
+  }
+}
+
+.nav_list {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+::selection {
   background-color: white;
 }
 
-
-.container{
-  width: 1920px;
-}
-
-nav{
-  height: 70px;
-  width: 100%;
-  background-color:#1A2B34 ;
-}
-
-.Menu-Web{
+.Menu-Web {
   position: fixed;
   text-align: center;
   display: flex;
   justify-content: space-between;
 }
-.Menu-Web ul{
+.Menu-Web ul {
   float: right;
   list-style: none;
   margin: 0;
@@ -205,47 +271,47 @@ nav{
   align-items: center;
   line-height: 40px;
 }
-.Menu-Web ul li{
+.Menu-Web ul li {
   display: inline-block;
   line-height: 40px;
   display: flex;
 }
-.Menu-Web ul li a{
+.Menu-Web ul li a {
   font-family: inherit;
   font-weight: bold;
   text-decoration: none;
   display: block;
   padding: 0 25px;
-  color: #01FF85;
+  color: #01ff85;
   transition: all 500ms ease;
   -webkit-transition: all 500ms ease;
   -o-transition: all 500ms ease;
 }
-.Menu-Web ul li a:hover{
-  background-color: #01FF85;
-  color: #1A2B34;
+.Menu-Web ul li a:hover {
+  background-color: #01ff85;
+  color: #1a2b34;
   border-radius: 30px;
 }
 
-@media screen and (max-width:950px){
+@media screen and (max-width: 950px) {
   div .Menu-Web,
-  div .Menu-Web ul{
-    width:100%;
+  div .Menu-Web ul {
+    width: 100%;
     text-align: center;
     line-height: 40px;
   }
-  .Menu-Web{
+  .Menu-Web {
     height: auto;
   }
 }
 
-.Menu-Mobile{
+.Menu-Mobile {
   display: none;
 }
-.Menu-Mobile a:hover svg{
-fill: red;
+.Menu-Mobile a:hover svg {
+  fill: red;
 }
-.Menu-Mobile .Header{
+.Menu-Mobile .Header {
   display: flex;
   width: 100%;
   flex-direction: row;
@@ -253,43 +319,43 @@ fill: red;
   justify-content: space-evenly;
   align-content: center;
 }
-.Menu-Mobile ul{
+.Menu-Mobile ul {
   margin: 0px;
   padding: 0px;
   display: flex;
   flex-direction: column;
 }
-.Menu-Mobile ul li{
+.Menu-Mobile ul li {
   text-align: center;
 }
-.Menu-Mobile ul li a{
+.Menu-Mobile ul li a {
   display: block;
   padding: 20px 0;
   text-align: center;
 }
-.Menu-Mobile-Closed{
+.Menu-Mobile-Closed {
   display: none;
 }
 
-@media (max-width: 1450 px){
+@media (max-width: 1450 px) {
 }
 
-@media (max-width: 1280 px){
+@media (max-width: 1280 px) {
 }
 
-@media (max-width: 900 px){
+@media (max-width: 900 px) {
 }
 
-@media (max-width: 800 px){
+@media (max-width: 800 px) {
 }
 
-@media (max-width: 540 px){
-  .Menu-Web{
-display: none;
+@media (max-width: 540 px) {
+  .Menu-Web {
+    display: none;
   }
-  .Menu-Mobile{
-  display: block;
-}
+  .Menu-Mobile {
+    display: block;
+  }
 }
 
 .INTRODUCTION_SECTION {
@@ -322,17 +388,17 @@ display: none;
   width: 100%;
   padding-top: 100px;
   padding-bottom: 30px;
-  background-color:#1A2B34;
+  background-color: #1a2b34;
 }
 .PERSONAL_INFORMATION_TITLE {
   height: 40px;
-  color: #01FF85;
+  color: #01ff85;
   font-family: inherit;
   font-weight: bold;
   text-align: center;
   align-items: center;
 }
-.PERSONAL_INFORMATION_BOXES{
+.PERSONAL_INFORMATION_BOXES {
   padding-top: 50px;
   display: flex;
   align-items: center;
@@ -340,7 +406,7 @@ display: none;
   align-content: center;
 }
 .PERSONAL_INFORMATION_DATA_BOX {
-  color: #01FF85;
+  color: #01ff85;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
     "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 500;
@@ -353,7 +419,7 @@ display: none;
   float: left;
 }
 .PERSONAL_INFORMATION_BOX {
-  color: #01FF85;
+  color: #01ff85;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
     "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 500;
@@ -395,18 +461,18 @@ display: none;
   width: 100%;
   padding-top: 100px;
   padding-bottom: 30px;
-  background-color: #1A2B34;
+  background-color: #1a2b34;
 }
 .WORK_EXPERIENCE_TITLE {
   height: 40px;
-  color: #01FF85;
+  color: #01ff85;
   font-family: inherit;
   font-weight: bold;
   text-align: center;
   align-items: center;
 }
 .WORK_EXPERIENCE_BOX {
-  color: #01FF85;
+  color: #01ff85;
   padding-top: 50px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
     "Open Sans", "Helvetica Neue", sans-serif;
@@ -447,11 +513,11 @@ display: none;
   width: 100%;
   padding-top: 100px;
   padding-bottom: 30px;
-  background-color:#1A2B34;
+  background-color: #1a2b34;
 }
 .LANGUAGES_TITLE {
   height: 40px;
-  color:#01FF85;
+  color: #01ff85;
   font-family: inherit;
   font-weight: bold;
   text-align: center;
@@ -467,31 +533,33 @@ display: none;
   font-size: 25px;
   align-items: center;
 }
-table{
+table {
   width: 30%;
-  background-color: 	#F4F4F4;
+  background-color: #f4f4f4;
   text-align: left;
   margin: 0 auto;
   border-collapse: collapse;
   border-radius: 10px;
 }
-th, td{
+th,
+td {
   padding: 20px;
 }
-thead{
-  background-color:#01FF85;
-  color:#1a2b34;
+thead {
+  background-color: #01ff85;
+  color: #1a2b34;
 }
-tr:nth-child(even){
-background-color: white;
+tr:nth-child(even) {
+  background-color: white;
 }
-tr:hover td{
-  background-color:#1a2b34 ;
-  color:#01FF85;
+tr:hover td {
+  background-color: #1a2b34;
+  color: #01ff85;
 }
 .LANGUAGES_TABLE {
   color: #1a2b34;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
+    "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 500;
   font-size: 25px;
   text-align: center;
@@ -515,7 +583,7 @@ tr:hover td{
 }
 .SOFTWARE_BOX {
   padding-top: 50px;
-  color:white;
+  color: white;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
     "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: bold;
@@ -523,7 +591,7 @@ tr:hover td{
   text-align: center;
 }
 
-.Software-Grid{
+.Software-Grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   margin: 0;
@@ -532,54 +600,60 @@ tr:hover td{
   justify-content: auto;
 }
 
-.Software-Grid .Software-App{
+.Software-Grid .Software-App {
   padding: 0;
   position: relative;
   height: 200px;
 }
 
-.Software-Grid .Software-App img{
+.Software-Grid .Software-App img {
   width: 80%;
-  transform: scale (1,1);
+  transform: scale (1, 1);
   transition: all 0.075s;
 }
 
-.Software-Grid .Software-App:hover img{
-  transform: scale (1.2,1.2);
+.Software-Grid .Software-App:hover img {
+  transform: scale (1.2, 1.2);
 }
 
-.Software-Grid .Software-App .bg-hover{
-background-color: #182025;
-width: 100%;
-display: grid;
-position: absolute;
-z-index: 2;
-opacity: 0;
-transition: opacity 0.3s ease-in-out;
-transform: scale (1,1);
-justify-items: center;
-align-items: center;
-text-align: center;
+.Software-Grid .Software-App .bg-hover {
+  background-color: #182025;
+  width: 100%;
+  display: grid;
+  position: absolute;
+  z-index: 2;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  transform: scale (1, 1);
+  justify-items: center;
+  align-items: center;
+  text-align: center;
 }
 
-.Software-Grid .Software-App:hover .bg-hover{
+.Software-Grid .Software-App:hover .bg-hover {
   overflow: hidden;
   opacity: 1;
 }
 
-.Software-Grid .Software-App:hover .bg-hover .info{
+.Software-Grid .Software-App:hover .bg-hover .info {
   animation-name: bounce;
   animation-duration: 0.5s;
   animation-timing-function: ease-in-out;
 }
 
-@keyframes bounce{
-  0% {transform: translateY (500px);}
-  80% {transform: translateY (-50px);}
-  100% {transform: translateY (0px);}
+@keyframes bounce {
+  0% {
+    transform: translateY (500px);
+  }
+  80% {
+    transform: translateY (-50px);
+  }
+  100% {
+    transform: translateY (0px);
+  }
 }
 
-.Expertise-Level{
+.Expertise-Level {
   font-weight: normal;
 }
 
@@ -587,22 +661,22 @@ text-align: center;
   height: 800px;
   padding-top: 100px;
   padding-bottom: 30px;
-  background-color:#1A2B34;
+  background-color: #1a2b34;
 }
 .SKILLS_TITLE {
   height: 40px;
-  color: #01FF85;
+  color: #01ff85;
   font-family: inherit;
   font-weight: bold;
   text-align: center;
   align-items: center;
 }
 .SKILLS_BOX {
-  color: #01FF85;
+  color: #01ff85;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
     "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 500;
-  font size: 25px;
+  font-size: 25px;
   text-align: center;
   align-items: center;
 }
@@ -635,17 +709,17 @@ text-align: center;
   height: 800px;
   padding-top: 100px;
   padding-bottom: 30px;
-  background-color:#1A2B34;
+  background-color: #1a2b34;
 }
 .SOCIAL_MEDIA_TITLE {
-  color:#01FF85 ;
+  color: #01ff85;
   font-family: inherit;
   font-weight: bold;
   text-align: center;
   align-items: center;
 }
 .SOCIAL_MEDIA_BOX {
-  color: #01FF85;
+  color: #01ff85;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
     "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 500;
