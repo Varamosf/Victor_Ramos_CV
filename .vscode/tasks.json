@@ -1,0 +1,14 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "npm",
+      "script": "bundlewatch",
+      "path": "libs/bootstrap-5.0.2/",
+      "group": "build",
+      "problemMatcher": [],
+      "label": "npm: bundlewatch - libs/bootstrap-5.0.2",
+      "detail": "bundlewatch --config .bundlewatch.config.json"
+    }
+  ]
+}
