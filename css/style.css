@@ -509,13 +509,21 @@ padding: 2.5px;
   justify-content: center;
 }
 
-.skills__header{
+/*.skills__header{
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: var(--mg-2-50);
   cursor: pointer;
+}*/
+.skills__header{
+  text-align: left;
+  align-items: baseline;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: var(--mg-0-50);
 }
+
 .skills__section {
   height: 1400px;
   padding-bottom: 30px;
@@ -567,6 +575,7 @@ color: var(--text-color-light-bg);
   text-align: left;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-bottom: var(--mg-0-50);
 }
 .skills__name{
